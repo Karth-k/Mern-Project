@@ -1,0 +1,18 @@
+
+kk{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.bann {
+  /* margin-top: 10px; */
+  height: 400px;
+  width: 100%;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  justify-content: center;
+}

@@ -1,0 +1,51 @@
+
+.login-container {
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 100%;
+}
+
+.login-card {
+  width: 350px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+
+.avatar-img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.login-title {
+  font-weight: bold;
+}
+
+.login-subtitle {
+  font-size: 0.9rem;
+  margin-top: -5px;
+}
+
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  border-bottom: 2px solid #007bff;
+  outline: none;
+}
+
+.btn-secondary {
+  background-color: #7e5ea5;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-secondary:hover {
+  background-color: #b0b0b0;
+}

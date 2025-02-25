@@ -1,0 +1,3114 @@
+//  [
+//       {
+//         "id": 1,
+//         "image": [
+//           "https://img3.junaroad.com/uiproducts/18178878/zoom_0-1639821727.jpg"
+//         ],
+//         "brand_image":"https://n-img3.junaroad.com/stories/story_p_6762beb063d80c684669ba40-1734526289.jpeg",
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Canary London",
+//         "price": 799,
+//         "before_disc": 1599,
+//         "offer_percent": 50,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 2,
+//         "image": [
+//           "https://img3.junaroad.com/uiproducts/18620559/zoom_0-1667391317.jpg"
+//         ],
+//         "brand_image":"https://n-img3.junaroad.com/stories/story_p_67595a1049023569c477abc9-1734426885.jpeg",
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "V Mart",
+//         "price": 549,
+//         "before_disc": 600,
+//         "offer_percent": 9,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 3,
+//         "image": [
+//           "https://img3.junaroad.com/uiproducts/18620672/zoom_0-1667391315.jpg"
+//         ],
+//         "brand_image":"https://n-img1.junaroad.com/stories/story_p_674d887d49023578ebc4358e-1738155022.jpeg",
+
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "V Mart",
+//         "price": 549,
+//         "before_disc": 600,
+//         "offer_percent": 9,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 4,
+//         "image": [
+//           "https://img3.junaroad.com/uiproducts/18423372/zoom_0-1657118970.jpg"
+//         ],
+//         "brand_image":"https://n-img3.junaroad.com/stories/story_p_674d804f309028317a1bae08-1733259960.jpeg",
+
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Deshbandhu Khadi",
+//         "price": 949,
+//         "before_disc": 2040,
+//         "offer_percent": 53,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 5,
+//         "image": [
+//           "https://img3.junaroad.com/uiproducts/18845976/zoom_0-1670858182.jpg"
+//         ],
+//         "brand_image":"https://n-img1.junaroad.com/stories/story_p_6746eadf4e6b0d2c5f3c9148-1739169620.jpeg",
+
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "V Mart",
+//         "price": 449,
+//         "before_disc": 475,
+//         "offer_percent": 5,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 6,
+//         "image": [
+//           "https://img3.junaroad.com/uiproducts/18423254/zoom_0-1657107788.jpg"
+//         ],
+//         "brand_image":"https://n-img4.junaroad.com/stories/story_p_67500b9e4e6b0d54a50168de-1738685629.jpeg",
+
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Deshbandhu Khadi",
+//         "price": 949,
+//         "before_disc": 2040,
+//         "offer_percent": 53,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 7,
+//         "image": [
+//           "https://img3.junaroad.com/uiproducts/19102186/zoom_0-1672416708.jpg"
+//         ],
+//         "brand_image":"https://n-img3.junaroad.com/stories/story_p_678f367d209967094478f672-1737449591.jpeg",
+
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Canary London",
+//         "price": 1899,
+//         "before_disc": 2599,
+//         "offer_percent": 27,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 8,
+//         "image": [
+//           "https://img3.junaroad.com/uiproducts/18615495/zoom_0-1666451230.jpg"
+//         ],
+//         "brand_image":"https://n-img3.junaroad.com/stories/story_p_678f367d209967094478f672-1737449591.jpeg",
+
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "V Mart",
+//         "price": 649,
+//         "before_disc": 750,
+//         "offer_percent": 13,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 9,
+//         "image": [
+//           "https://img3.junaroad.com/uiproducts/19131602/zoom_0-1673333755.jpg"
+//         ],
+//         "brand_image":"https://n-img0.junaroad.com/stories/story_p_6787775410766509c80baaf2-1738159086.jpeg",
+
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Ad By Arvind",
+//         "price": 1599,
+//         "before_disc": 2699,
+//         "offer_percent": 41,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 10,
+//         "image": [
+//           "https://img3.junaroad.com/uiproducts/19102186/zoom_0-1672416708.jpg"
+//         ],
+//         "brand_image":"https://n-img1.junaroad.com/stories/story_p_6785fa2cc8c9329f61c6828e-1736837434.jpeg",
+
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Canary London",
+//         "price": 1899,
+//         "before_disc": 2599,
+//         "offer_percent": 27,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 11,
+//         "image": [
+//           "https://img3.junaroad.com/uiproducts/18982100/zoom_0-1672406737.jpg"
+//         ],
+//         "brand_image":"https://n-img1.junaroad.com/stories/story_p_678f3c0fc8c932ec03c1dee6-1738156990.jpeg",
+
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Asciiblues",
+//         "price": 699,
+//         "before_disc": 1499,
+//         "offer_percent": 53,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 12,
+//         "image": [
+//           "https://img3.junaroad.com/uiproducts/18982118/zoom_0-1672406737.jpg"
+//         ],
+//         "brand_image":"https://n-img4.junaroad.com/stories/story_p_677b565f490235656e420b3a-1738162042.jpeg",
+
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Asciiblues",
+//         "price": 649,
+//         "before_disc": 1299,
+//         "offer_percent": 50,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 13,
+//         "image": [
+//           "https://img3.junaroad.com/uiproducts/18879115/zoom_0-1671203350.jpg"
+//         ],
+//         "brand_image":"https://n-img1.junaroad.com/stories/story_p_67613ceb4e6b0d36fa722585-1734431321.jpeg",
+
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Allen Kniel",
+//         "price": 299,
+//         "before_disc": 699,
+//         "offer_percent": 57,
+//         "category": {
+//           "gender": "Men",
+//           "type": "T-Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 14,
+//         "image": [
+//           "https://img3.junaroad.com/uiproducts/18940370/zoom_0-1671704186.jpg"
+//         ],
+//         "brand_image":"https://n-img0.junaroad.com/stories/story_p_6787775410766509c80baaf2-1738159086.jpeg",
+
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Fashion Fricks",
+//         "price": 399,
+//         "before_disc": 599,
+//         "offer_percent": 33,
+//         "category": {
+//           "gender": "Men",
+//           "type": "T-Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 15,
+//         "image": [
+//           "https://img3.junaroad.com/uiproducts/18940370/zoom_0-1671704186.jpg"
+//         ],
+//         "brand_image":"https://n-img0.junaroad.com/stories/story_p_67975a8a429fe29cb8737af8-1738399095.jpeg",
+
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Fashion Fricks",
+//         "price": 399,
+//         "before_disc": 599,
+//         "offer_percent": 33,
+//         "category": {
+//           "gender": "Men",
+//           "type": "T-Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 16,
+//         "image": [
+//           "https://img3.junaroad.com/uiproducts/18906307/zoom_0-1671443549.jpg"
+//         ],
+//         "brand_image":"https://n-img0.junaroad.com/stories/story_p_6787775410766509c80baaf2-1738159086.jpeg",
+
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Recast",
+//         "price": 449,
+//         "before_disc": 1199,
+//         "offer_percent": 63,
+//         "category": {
+//           "gender": "Men",
+//           "type": "T-Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 17,
+//         "image": [
+//           "https://img3.junaroad.com/uiproducts/18879110/zoom_0-1671203351.jpg"
+//         ],
+//         "brand_image":"https://n-img4.junaroad.com/stories/story_p_6798ab40c8c932ec03cb3bab-1738937287.jpeg",
+
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Allen Kniel",
+//         "price": 299,
+//         "before_disc": 799,
+//         "offer_percent": 63,
+//         "category": {
+//           "gender": "Men",
+//           "type": "T-Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 18,
+//         "image": [
+//           "https://img3.junaroad.com/uiproducts/19111579/zoom_0-1672591922.jpg"
+//         ],
+//         "brand_image":"https://n-img4.junaroad.com/stories/story_p_67a4961f7c7328328b9396f7-1739428995.jpeg",
+
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Copperline",
+//         "price": 1049,
+//         "before_disc": 2599,
+//         "offer_percent": 60,
+//         "category": {
+//           "gender": "Men",
+//           "type": "T-Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 19,
+//         "image": [
+//           "https://img3.junaroad.com/uiproducts/19155754/zoom_0-1673431944.jpg"
+//         ],
+//         "brand_image":"https://n-img3.junaroad.com/stories/story_p_67ac95b0107665c37e5aa95e-1739365386.jpeg",
+
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Mountain Colours",
+//         "price": 449,
+//         "before_disc": 1499,
+//         "offer_percent": 70,
+//         "category": {
+//           "gender": "Men",
+//           "type": "T-Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 20,
+//         "image": [
+//           "https://img3.junaroad.com/uiproducts/18313808/zoom_0-1648541975.jpg"
+//         ],
+//         "brand_image":"https://n-img4.junaroad.com/stories/story_p_67a5d7b420996709448ee720-1739365502.jpeg",
+
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Classic Polo",
+//         "price": 1149,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "T-Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 21,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21578286/zoom_0-1728977685.jpg"
+//         ],
+//         "brand_image":"https://n-img1.junaroad.com/stories/story_p_6762b5cb49023565b00ab670-1735569242.jpeg",
+
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Classic Polo",
+//         "price": 1149,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "T-Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 22,
+//         "image": [
+//               "https://n-img1.junaroad.com/uiproducts/21578273/zoom_1-1728977686.jpg"       
+//          ],
+//         "brand_image":"https://n-img1.junaroad.com/stories/story_p_6768e6b6bec3da78b8618661-1734947069.jpeg",
+
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Classic Polo",
+//         "price": 1149,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "T-Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 23,
+//         "image": [
+//             "https://n-img0.junaroad.com/uiproducts/19112570/zoom_0-1672634572.jpg"
+//         ],
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Classic Polo",
+//         "price": 1149,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "T-Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 24,
+//         "image": [
+//           "https://n-img1.junaroad.com/uiproducts/21498297/pri_175_p-1724342007.jpg"
+//         ],
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Classic Polo",
+//         "price": 1149,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "T-Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 25,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21498232/pri_175_p-1724342005.jpg"
+//         ],
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Classic Polo",
+//         "price": 1149,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "T-Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 26,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/19600834/zoom_0-1739428583.jpg"
+//         ],
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Classic Polo",
+//         "price": 1149,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "T-Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 27,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/20165383/zoom_0-1691736139.jpg"
+//         ],
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Classic Polo",
+//         "price": 1149,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "T-Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 28,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/20563052/zoom_0-1705653509.jpg"
+//         ],
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Classic Polo",
+//         "price": 1149,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "T-Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 29,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21691017/zoom_0-1735824312.jpg"
+//         ],
+//         "title": "Logo Print Round-Neck Sweatshirt",
+//         "brand": "Classic Polo",
+//         "price": 1149,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "T-Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 30,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/19818718/zoom_0-1725963287.jpg"
+//         ],
+//         "title": "men mid rise washed tshirt",
+//         "brand": "Classic Polo",
+//         "price": 1149,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "T-Shirts",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 31,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21639763/zoom_0-1733745383.jpg"
+//         ],
+//         "title": "men mid rise slim fit washed denim jeans",
+//         "brand": "Classic Polo",
+//         "price": 1149,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Jeans",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 32,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21570760/zoom_0-1732185047.jpg"
+//         ],
+//         "title": "men mid rise plain straight fit jeans",
+//         "brand": "Classic Polo",
+//         "price": 1149,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Jeans",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 33,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/20022604/zoom_0-1688383721.jpg"
+//         ],
+//         "title": "mens slim fit plain jeans",
+//         "brand": "Classic Polo",
+//         "price": 1149,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Jeans",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 34,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/18736791/zoom_0-1669983292.jpg"
+//         ],
+//         "title": "mens slim fit plain jeans",
+//         "brand": "Classic Polo",
+//         "price": 1149,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Jeans",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 35,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21073493/zoom_0-1725348987.jpg"
+//         ],
+//         "title": "men solid mid rise jeans",
+//         "brand": "Classic Polo",
+//         "price": 1149,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Jeans",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 36,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21669055/zoom_0-1737098753.jpg"
+//         ],
+//         "title": "men light blue mid rise denim jean",
+//         "brand": "Classic Polo",
+//         "price": 1149,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Jeans",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 37,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21596134/zoom_0-1729514271.jpg"
+//         ],
+//         "title": "men solid mid rise skinny fit jean",
+//         "brand": "Classic Polo",
+//         "price": 1149,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Jeans",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 38,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21564094/zoom_0-1732185046.jpg"
+//         ],
+//         "title": "men mid rise distressed straight fit jeans",
+//         "brand": "Classic Polo",
+//         "price": 1149,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Jeans",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 39,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21177148/zoom_0-1713780215.jpg"
+//         ],
+//         "title": "men plain mid rise denim jeans",
+//         "brand": "V-mart",
+//         "price": 1249,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Jeans",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 40,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21653220/zoom_0-1737095678.jpg"
+//         ],
+//         "title": "men solid long sleeve single breasted casual blazer",
+//         "brand": "Classic Polo",
+//         "price": 1799,
+//         "before_disc": 1999,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Suits",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 41,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21645080/zoom_0-1735307332.jpg"
+//         ],
+//         "title": "men lapel neck solid single breasted casual blaze",
+//         "brand": "Classic Polo",
+//         "price": 1149,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Suits",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 42,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21340844/zoom_0-1718675503.jpg"
+//         ],
+//         "title": "men solids single breasted casual blazer",
+//         "brand": "Classic Polo",
+//         "price": 1149,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Suits",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 43,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21547612/zoom_0-1729882557.jpg"
+//         ],
+//         "title": "grey solid single breasted casual blazer",
+//         "brand": "Classic Polo",
+//         "price": 1549,
+//         "before_disc": 1899,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Suits",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 44,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21646057/zoom_0-1735307333.jpg"
+//         ],
+//         "title": "men long sleeves solid single breasted casual blazer",
+//         "brand": "V-mart",
+//         "price": 1149,
+//         "before_disc": 1399,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Suits",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 45,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21564856/zoom_0-1732270637.jpg"
+//         ],
+//         "title": "men solid single breasted formal blazer",
+//         "brand": "Classic Polo",
+//         "price": 1949,
+//         "before_disc": 2200,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Suits",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 46,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21564856/zoom_0-1732270637.jpg"
+//         ],
+//         "title": "men lapel neck printed single breasted casual blazer",
+//         "brand": "Classic Polo",
+//         "price": 1949,
+//         "before_disc": 2200,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Suits",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 47,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/14996400/zoom_0-1524218290.jpg"
+//         ],
+//         "title": "blue linen casual blazer",
+//         "brand": "Classic Polo",
+//         "price": 2049,
+//         "before_disc": 2200,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Suits",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 48,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/17351477/zoom_0-1602676184.jpg"
+//         ],
+//         "title": "red solid linen casual blazer",
+//         "brand": "Classic Polo",
+//         "price": 1790,
+//         "before_disc": 2200,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Suits",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 49,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/16891112/zoom_0-1579949276.jpg"
+//         ],
+//         "title": "blue solid single breasted casual blazer",
+//         "brand": "Classic Polo",
+//         "price": 1900,
+//         "before_disc": 2200,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Suits",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 50,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/19488684/zoom_0-1678199272.jpg"
+//         ],
+//         "title": "black solid bandhgala",
+//         "brand": "Classic Polo",
+//         "price": 2500,
+//         "before_disc": 2800,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Suits",
+//           "model": "clothing"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 51,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21581059/zoom_0-1729018106.jpg"
+//         ],
+//         "title": "men comfortable slip on casual sandals",
+//         "brand": "Classic Polo",
+//         "price": 999,
+//         "before_disc": 1200,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Scandals",
+//           "model": "footwear"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 52,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21519073/zoom_0-1725445217.jpg"
+//         ],
+//         "title": "men tan slip on sandal",
+//         "brand": "Classic Polo",
+//         "price": 850,
+//         "before_disc": 1000,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Scandals",
+//           "model": "footwear"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 53,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/18754288/zoom_0-1687936885.jpg"
+//         ],
+//         "title": "brown slip on sandal",
+//         "brand": "Classic Polo",
+//         "price": 309,
+//         "before_disc": 800,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Scandals",
+//           "model": "footwear"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 54,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21647339/zoom_0-1732192571.jpg"
+//         ],
+//         "title": "men slip on velcro sandal",
+//         "brand": "Classic Polo",
+//         "price": 800,
+//         "before_disc": 1000,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Scandals",
+//           "model": "footwear"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 55,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21710993/zoom_0-1738064253.jpg"
+//         ],
+//         "title": "men solid back strap sandal",
+//         "brand": "Classic Polo",
+//         "price": 2500,
+//         "before_disc": 2800,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Scandals",
+//           "model": "footwear"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 56,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/17831134/zoom_0-1625141185.jpg"
+//         ],
+//         "title": "black back strap sandal",
+//         "brand": "Classic Polo",
+//         "price": 500,
+//         "before_disc": 800,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Scandals",
+//           "model": "footwear"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 57,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21316566/zoom_0-1717743096.jpg"
+//         ],
+//         "title": "snapup revolve bluetooth calling smartwatch (black)",
+//         "brand": "Classic Polo",
+//         "price": 1900,
+//         "before_disc": 2800,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Watch",
+//           "model": "accessories"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 58,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21568206/zoom_0-1728368390.jpg"
+//         ],
+//         "title": "snapup vision ultra bluetooth calling smartwatch (black)",
+//         "brand": "Classic Polo",
+//         "price": 1800,
+//         "before_disc": 2800,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Watch",
+//           "model": "accessories"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 59,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21568204/zoom_0-1728368390.jpg"
+//         ],
+//         "title": "snapup horizon pro bluetooth calling smartwatch",
+//         "brand": "Classic Polo",
+//         "price": 1500,
+//         "before_disc": 2800,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Watch",
+//           "model": "accessories"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 60,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21568207/zoom_0-1728368391.jpg"
+//         ],
+//         "title": "snapup vision ultra bluetooth calling smartwatch (silver blue)",
+//         "brand": "Classic Polo",
+//         "price": 2100,
+//         "before_disc": 2800,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Watch",
+//           "model": "accessories"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 61,
+//         "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21316568/zoom_0-1717743097.jpg"
+//         ],
+//         "title": "black solid bandhgalasnapup vision bluetooth calling smartwatch (gold brown)",
+//         "brand": "Classic Polo",
+//         "price": 2200,
+//         "before_disc": 2800,
+//         "offer_percent": 18,
+//         "category": {
+//           "gender": "Men",
+//           "type": "Watch",
+//           "model": "accessories"
+//         },
+//         "size": [
+//           "M",
+//           "S",
+//           "L",
+//           "XL",
+//           "XXL",
+//           "XXXL"
+//         ],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 62,
+//         "image": ["https://n-img0.junaroad.com/uiproducts/21721743/zoom_0-1738914663.jpg"],
+//         "brand_image":"https://n-img0.junaroad.com/stories/story_p_6799c59bf77e5bd0c0714439-1738304406.jpeg",
+//         "title": "women solid long sleeve shirt",
+//         "brand": "Zara",
+//         "price": 699,
+//         "before_disc": 1499,
+//         "offer_percent": 40,
+//         "category": {
+//           "gender": "Women",
+//           "type": "Shirts",
+//           "model": "clothing"
+//         },
+//         "size": ["S", "M", "L", "XL"],
+//         "Quantity": 1
+//       },
+//       {
+//         "id": 63,
+//         "image": ["https://n-img0.junaroad.com/uiproducts/21387636/zoom_0-1720788722.jpg"],
+//         "brand_image":"https://n-img1.junaroad.com/stories/story_p_67af3bed2099674a6828d851-1739538366.jpeg",
+//         "title": "women white solid regular shirt",
+//         "brand": "Zara",
+//         "price": 899,
+//         "before_disc": 1499,
+//         "offer_percent": 40,
+//         "category": {
+//           "gender": "Women",
+//           "type": "Shirts",
+//           "model": "Casual Wear"
+//         },
+//         "size": ["S", "M", "L", "XL"],
+//         "Quantity": 1
+//       },{
+//         "id": 64,
+//         "image": ["https://n-img0.junaroad.com/uiproducts/17928806/zoom_0-1632239224.jpg"],
+//         "brand_image":"https://n-img2.junaroad.com/stories/story_p_6799d313f77e5bd0c0715b44-1738643752.jpeg",
+//         "title": "women solid lapel collar neck shirt",
+//         "brand": "Zara",
+//         "price": 899,
+//         "before_disc": 1499,
+//         "offer_percent": 40,
+//         "category": {
+//           "gender": "Women",
+//           "type": "Shirts",
+//           "model": "clothing"
+//         },
+//         "size": ["S", "M", "L", "XL"],
+//         "Quantity": 1
+//       },{
+//         "id": 65,
+//         "image": ["https://n-img0.junaroad.com/uiproducts/17715600/zoom_0-1620209355.jpg"],
+//         "brand_image":"https://n-img0.junaroad.com/stories/story_p_67a45c9020996709448d65bf-1739349535.jpeg",
+//         "title": "long sleeved animal shirt",
+//         "brand": "Zara",
+//         "price": 999,
+//         "before_disc": 1499,
+//         "offer_percent": 40,
+//         "category": {
+//           "gender": "Women",
+//           "type": "Shirts",
+//           "model": "clothing"
+//         },
+//         "size": ["S", "M", "L", "XL"],
+//         "Quantity": 1
+//       },{
+//         "id": 66,
+//         "image": ["https://n-img0.junaroad.com/uiproducts/19784856/zoom_0-1683042980.jpg"],
+//         "brand_image":"https://n-img1.junaroad.com/stories/story_p_67a483c7429fe29cb8800df8-1739350598.jpeg",
+//         "title": "Floral Print Casual Shirt",
+//         "brand": "Zara",
+//         "price": 899,
+//         "before_disc": 1499,
+//         "offer_percent": 40,
+//         "category": {
+//           "gender": "Women",
+//           "type": "Shirts",
+//           "model": "clothing"
+//         },
+//         "size": ["S", "M", "L", "XL"],
+//         "Quantity": 1
+//       },{
+//         "id": 67,
+//         "image": ["https://n-img0.junaroad.com/uiproducts/17715700/zoom_0-1620746040.jpg"],
+//         "title": "brown coloured printed regular shirt",
+//         "brand": "Zara",
+//         "price": 899,
+//         "before_disc": 1499,
+//         "offer_percent": 40,
+//         "category": {
+//           "gender": "Women",
+//           "type": "Shirts",
+//           "model": "clothing"
+//         },
+//         "size": ["S", "M", "L", "XL"],
+//         "Quantity": 1
+//       },{
+//         "id": 68,
+//         "image": ["https://n-img0.junaroad.com/uiproducts/18499093/zoom_0-1661963960.jpg"],
+//          "title":"long sleeved animal shirt",
+//         "brand": "Zara",
+//         "price": 899,
+//         "before_disc": 1499,
+//         "offer_percent": 40,
+//         "category": {
+//           "gender": "Women",
+//           "type": "Shirts",
+//           "model": "clothing"
+//         },
+//         "size": ["S", "M", "L", "XL"],
+//         "Quantity": 1
+//       },{
+//       "id": 69,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/19581790/zoom_0-1679839299.jpg"],
+//       "title": "multicolored rayon printed shirt",
+//       "brand": "Zara",
+//       "price": 699,
+//       "before_disc": 1499,
+//       "offer_percent": 40,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Shirts",
+//         "model": "clothing"
+//       },
+//       "size": ["S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 70,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/19581788/zoom_0-1679839299.jpg"],
+//       "title": "women solid formal shirt",
+//       "brand": "Zara",
+//       "price": 799,
+//       "before_disc": 1499,
+//       "offer_percent": 40,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Shirts",
+//         "model": "clothing"
+//       },
+//       "size": ["S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 71,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21586563/zoom_0-1729238943.jpg"],
+//       "title": "Floral Print Casual Shirt",
+//       "brand": "Zara",
+//       "price": 599,
+//       "before_disc": 999,
+//       "offer_percent": 40,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Shirts",
+//         "model": "clothing"
+//       },
+//       "size": ["S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 72,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/16298832/zoom_0-1558442654.jpg"],
+//       "title": "women long sleeves solid regular shirt",
+//       "brand": "Zara",
+//       "price": 899,
+//       "before_disc": 1499,
+//       "offer_percent": 40,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Shirts",
+//         "model": "clothing"
+//       },
+//       "size": ["S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 73,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21387606/zoom_0-1720788723.jpg"],
+//       "title": "women olive denim solids oversized shirt",
+//       "brand": "Forever 21",
+//       "price": 699,
+//       "before_disc": 999,
+//       "offer_percent": 30,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Shirts",
+//         "model": "clothing"
+//       },
+//       "size": ["XS", "S", "M", "L"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 74,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/18479811/zoom_0-1661495723.jpg"],
+//       "brand_image":"https://n-img4.junaroad.com/stories/story_p_6799f0d4429fe29cb876411b-1738144515.jpeg",
+//       "title": "Graphic Print T-shirt",
+//       "brand": "Forever 21",
+//       "price": 699,
+//       "before_disc": 999,
+//       "offer_percent": 30,
+//       "category": {
+//         "gender": "Women",
+//         "type": "T-Shirts",
+//         "model": "clothing"
+//       },
+//       "size": ["XS", "S", "M", "L"],
+//       "Quantity": 1
+//     },{
+//       "id": 75,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21554001/zoom_0-1727353000.jpg"],
+//       "brand_image":"https://n-img2.junaroad.com/stories/story_p_67989404107665d19bbfacde-1738306829.jpeg",
+//       "title": "women front print round neck t-shirt",
+//       "brand": "Forever 21",
+//       "price": 699,
+//       "before_disc": 999,
+//       "offer_percent": 30,
+//       "category": {
+//         "gender": "Women",
+//         "type": "T-Shirts",
+//         "model": "clothing"
+//       },
+//       "size": ["XS", "S", "M", "L"],
+//       "Quantity": 1
+//     },{
+//       "id": 76,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/19767201/zoom_0-1683888178.jpg"],
+//       "brand_image":"https://n-img2.junaroad.com/stories/story_p_67984c9a107665d19bbf544e-1738122162.jpeg",
+//       "title": "women's plain round neck t-shirt",
+//       "brand": "Forever 21",
+//       "price": 599,
+//       "before_disc": 999,
+//       "offer_percent": 30,
+//       "category": {
+//         "gender": "Women",
+//         "type": "T-Shirts",
+//         "model": "clothing"  
+//       },
+//       "size": ["XS", "S", "M", "L"],
+//       "Quantity": 1
+//     },{
+//       "id": 77,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21099475/zoom_0-1713780937.jpg"],
+//       "title": "Graphic Print T-shirt",
+//       "brand": "Forever 21",
+//       "price": 699,
+//       "before_disc": 999,
+//       "offer_percent": 30,
+//       "category": {
+//         "gender": "Women",
+//         "type": "T-Shirts",
+//         "model": "clothing"
+//       },
+//       "size": ["XS", "S", "M", "L"],
+//       "Quantity": 1
+//     },{
+//       "id": 78,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21222655/zoom_0-1714566903.jpg"],
+//       "title": "floral printed t-shirt",
+//       "brand": "Forever 21",
+//       "price": 999,
+//       "before_disc": 1299,
+//       "offer_percent": 30,
+//       "category": {
+//         "gender": "Women",
+//         "type": "T-Shirts",
+//         "model": "clothing"
+//       },
+//       "size": ["XS", "S", "M", "L"],
+//       "Quantity": 1
+//     },{
+//       "id": 79,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21224985/zoom_0-1714741487.jpg"],
+//       "title": "Graphic printed t-shirt",
+//       "brand": "Forever 21",
+//       "price": 599,
+//       "before_disc": 999,
+//       "offer_percent": 30,
+//       "category": {
+//         "gender": "Women",
+//         "type": "T-Shirts",
+//         "model": "clothing"
+//       },
+//       "size": ["XS", "S", "M", "L"],
+//       "Quantity": 1
+//     },{
+//       "id": 80,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21463543/zoom_0-1722410103.jpg"],
+//       "title": "women printed boxy t-shirt",
+//       "brand": "Forever 21",
+//       "price": 999,
+//       "before_disc": 1399,
+//       "offer_percent": 30,
+//       "category": {
+//         "gender": "Women",
+//         "type": "T-Shirts",
+//         "model": "clothing"
+//       },
+//       "size": ["XS", "S", "M", "L"],
+//       "Quantity": 1
+//     },{
+//       "id": 81,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/18509990/zoom_0-1662388030.jpg"],
+//       "title": "women round neck oversized t-shirt",
+//       "brand": "Forever 21",
+//       "price": 999,
+//       "before_disc": 1299,
+//       "offer_percent": 30,
+//       "category": {
+//         "gender": "Women",
+//         "type": "T-Shirts",
+//         "model": "clothing"
+//       },
+//       "size": ["XS", "S", "M", "L"],
+//       "Quantity": 1
+//     },{
+//       "id": 82,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/17484745/zoom_0-1610203016.jpg"],
+//       "title": "round neck striped regular tee",
+//       "brand": "Forever 21",
+//       "price": 699,
+//       "before_disc": 999,
+//       "offer_percent": 30,
+//       "category": {
+//         "gender": "Women",
+//         "type": "T-Shirts",
+//         "model": "clothing"
+//       },
+//       "size": ["XS", "S", "M", "L"],
+//       "Quantity": 1
+//     },{
+//       "id": 83,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21622095/zoom_0-1729913384.jpg"],
+//       "title": "women round neck printed oversized t-shirt",
+//       "brand": "Forever 21",
+//       "price": 799,
+//       "before_disc": 999,
+//       "offer_percent": 30,
+//       "category": {
+//         "gender": "Women",
+//         "type": "T-Shirts",
+//         "model": "clothing"
+//       },
+//       "size": ["XS", "S", "M", "L"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 84,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/20033344/zoom_0-1689175568.jpg"],
+//       "brand_image":"https://n-img2.junaroad.com/stories/story_p_67a06056f77e5bd0c0776350-1738564685.jpeg",
+//       "title": "women's flared kurta",
+//       "brand": "FabIndia",
+//       "price": 1999,
+//       "before_disc": 2499,
+//       "offer_percent": 24,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Kurtas",
+//         "model": "clothing"
+//       },
+//       "size": ["XS", "S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 85,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21599092/zoom_0-1732535857.jpg"],
+//       "brand_image":"https://n-img4.junaroad.com/stories/story_p_67aad8d520996716154c8055-1739526237.jpeg",
+//       "title": "women floral three quarter sleeve a-line kurta",
+//       "brand": "Zara",
+//       "price": 1799,
+//       "before_disc": 2499,
+//       "offer_percent": 24,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Kurtas",
+//         "model": "Ethnic Wear"
+//       },
+//       "size": ["XS", "S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 86,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21341775/zoom_0-1724419314.jpg"],
+//       "brand_image":"https://n-img3.junaroad.com/stories/story_p_67af21f9c8c932f9b574896c-1739531949.jpeg",
+//       "title": "Straight Fit Printed Kurta",
+//       "brand": "FabIndia",
+//       "price": 1699,
+//       "before_disc": 2499,
+//       "offer_percent": 24,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Kurtas",
+//         "model": "Ethnic Wear"
+//       },
+//       "size": ["XS", "S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 87,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21311039/zoom_0-1722585633.jpg"],
+//       "brand_image":"https://n-img0.junaroad.com/stories/story_p_67af11497c7328185cdb8df7-1739528329.jpeg",
+//       "title": "women white cotton straight kurta",
+//       "brand": "FabIndia",
+//       "price": 1899,
+//       "before_disc": 2499,
+//       "offer_percent": 24,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Kurtas",
+//         "model": "Ethnic Wear"
+//       },
+//       "size": ["XS", "S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 88,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/20273774/zoom_0-1694051257.jpg"],
+//       "title": "women beige floral printed side slit kurti",
+//       "brand": "FabIndia",
+//       "price": 1499,
+//       "before_disc": 2499,
+//       "offer_percent": 24,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Kurtas",
+//         "model": "Ethnic Wear"
+//       },
+//       "size": ["XS", "S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 89,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/19412180/zoom_0-1677137530.jpg"],
+//       "title": "Anarkali Cotton Kurta",
+//       "brand": "Biba",
+//       "price": 1899,
+//       "before_disc": 2499,
+//       "offer_percent": 24,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Kurtas",
+//         "model": "Ethnic Wear"
+//       },
+//       "size": ["XS", "S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 90,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21557650/zoom_0-1727680951.jpg"],
+//       "title": "Anarkali Cotton Kurta",
+//       "brand": "Biba",
+//       "price": 999,
+//       "before_disc": 1499,
+//       "offer_percent": 24,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Kurtas",
+//         "model": "Ethnic Wear"
+//       },
+//       "size": ["XS", "S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 91,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/20285871/zoom_0-1694191193.jpg"],
+//       "title": "Anarkali Cotton Kurta",
+//       "brand": "Biba",
+//       "price": 1899,
+//       "before_disc": 2499,
+//       "offer_percent": 24,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Kurtas",
+//         "model": "Ethnic Wear"
+//       },
+//       "size": ["XS", "S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 92,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21581388/zoom_0-1729080366.jpg"],
+//       "title": "women printed long sleeve short kurti",
+//       "brand": "Biba",
+//       "price": 1899,
+//       "before_disc": 2499,
+//       "offer_percent": 24,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Kurtas",
+//         "model": "Ethnic Wear"
+//       },
+//       "size": ["XS", "S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 93,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21683858/zoom_0-1734962507.jpg"],
+//       "title": "women embroidered three quarter sleeve straight kurta",
+//       "brand": "FabIndia",
+//       "price": 1899,
+//       "before_disc": 2499,
+//       "offer_percent": 24,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Kurtas",
+//         "model": "Ethnic Wear"
+//       },
+//       "size": ["XS", "S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 94,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21241251/zoom_0-1726149209.jpg"],
+//       "brand_image":"https://n-img2.junaroad.com/stories/story_p_67a96b47107665fa7f37a869-1739351928.jpeg",
+//       "title": "women teal slim fit smocked top",
+//       "brand": "Only",
+//       "price": 399,
+//       "before_disc": 799,
+//       "offer_percent": 33,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Tops",
+//         "model": "Party Wear"
+//       },
+//       "size": ["S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 95,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/20394554/zoom_0-1697029382.jpg"],
+//       "brand_image":"https://n-img3.junaroad.com/stories/story_p_67a9778620996716154b12f8-1739351479.jpeg",
+//       "title": "Black self designed puff sleeves peplum top",
+//       "brand": "Only",
+//       "price": 1199,
+//       "before_disc": 1799,
+//       "offer_percent": 33,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Tops",
+//         "model": "Party Wear"
+//       },
+//       "size": ["S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 96,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/19915466/zoom_0-1685356809.jpg"],
+//       "title": "women's straight key hole neck top",
+//       "brand": "Only",
+//       "price": 1199,
+//       "before_disc": 1799,
+//       "offer_percent": 33,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Tops",
+//         "model": "Party Wear"
+//       },
+//       "size": ["S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 97,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21392129/zoom_0-1721390139.jpg"],
+//       "title": "women grey cotton crop top",
+//       "brand": "Only",
+//       "price": 1199,
+//       "before_disc": 1799,
+//       "offer_percent": 33,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Tops",
+//         "model": "Party Wear"
+//       },
+//       "size": ["S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 98,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21643492/zoom_0-1731937003.jpg"],
+//       "title": "women crochet detailed sleeveless top",
+//       "brand": "Only",
+//       "price": 899,
+//       "before_disc": 1799,
+//       "offer_percent": 33,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Tops",
+//         "model": "Party Wear"
+//       },
+//       "size": ["S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 99,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/20929923/zoom_0-1706861009.jpg"],
+//       "title": "women white regular fit embroidered a-line top",
+//       "brand": "Only",
+//       "price": 1199,
+//       "before_disc": 1799,
+//       "offer_percent": 33,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Tops",
+//         "model": "Party Wear"
+//       },
+//       "size": ["S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 100,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/20929951/zoom_0-1706615046.jpg"],
+//       "title": "women white regular fit squared neck peplum top",
+//       "brand": "Only",
+//       "price": 1199,
+//       "before_disc": 1799,
+//       "offer_percent": 33,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Tops",
+//         "model": "Party Wear"
+//       },
+//       "size": ["S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 101,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21531929/zoom_0-1726146957.jpg"],
+//       "title": "globus women pink paisley & floral printed sweetheart neck raglan sleeves cinched waist workwear top",
+//       "brand": "Only",
+//       "price": 1199,
+//       "before_disc": 1799,
+//       "offer_percent": 33,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Tops",
+//         "model": "Party Wear"
+//       },
+//       "size": ["S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 102,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/19670369/zoom_0-1726149208.jpg"],
+//       "title": "women's straight round neck top",
+//       "brand": "Only",
+//       "price": 1199,
+//       "before_disc": 1799,
+//       "offer_percent": 33,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Tops",
+//         "model": "Party Wear"
+//       },
+//       "size": ["S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 103,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21032114/zoom_0-1709572840.jpg"],
+//       "title": "women ombre mandarin neck top",
+//       "brand": "Only",
+//       "price": 999,
+//       "before_disc": 1699,
+//       "offer_percent": 33,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Tops",
+//         "model": "Party Wear"
+//       },
+//       "size": ["S", "M", "L", "XL"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 104,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21227392/zoom_0-1714737915.jpg"],
+//       "brand_image":"https://n-img1.junaroad.com/stories/story_p_6798754c107665d19bbf8089-1739169402.jpeg",
+//       "title": "gold art silk kanjivaram saree with blouse",
+//       "brand": "Handloom Weavers",
+//       "price": 2999,
+//       "before_disc": 3499,
+//       "offer_percent": 14,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Sarees",
+//         "model": "Traditional Wear"
+//       },
+//       "size": ["Free Size"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 105,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/19870531/zoom_0-1684395972.jpg"],
+//       "brand_image":"https://n-img3.junaroad.com/stories/story_p_67af0af92099674a682885b1-1739525987.jpeg",
+//       "title": "women's self design green colored saree with blouse",
+//       "brand": "Handloom Weavers",
+//       "price": 3499,
+//       "before_disc": 3899,
+//       "offer_percent": 14,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Sarees",
+//         "model": "Traditional Wear"
+//       },
+//       "size": ["Free Size"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 106,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21218090/zoom_0-1714397244.jpg"],
+//       "brand_image":"https://n-img4.junaroad.com/stories/story_p_67a05d43c8c932ec03d29bdc-1739176108.jpeg",
+//       "title": "green checkered kovai saree with blouse",
+//       "brand": "Handloom Weavers",
+//       "price": 2999,
+//       "before_disc": 3499,
+//       "offer_percent": 14,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Sarees",
+//         "model": "Traditional Wear"
+//       },
+//       "size": ["Free Size"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 107,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21271511/zoom_0-1716202076.jpg"],
+//       "title": "women self design banarasi saree with blouse",
+//       "brand": "Handloom Weavers",
+//       "price": 2999,
+//       "before_disc": 3499,
+//       "offer_percent": 14,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Sarees",
+//         "model": "Traditional Wear"
+//       },
+//       "size": ["Free Size"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 108,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/18214634/zoom_0-1642007216.jpg"],
+//       "title": "women's self design pink colored saree with blouse",
+//       "brand": "Handloom Weavers",
+//       "price": 2999,
+//       "before_disc": 3499,
+//       "offer_percent": 14,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Sarees",
+//         "model": "Traditional Wear"
+//       },
+//       "size": ["Free Size"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 109,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21414003/zoom_0-1721743234.jpg"],
+//       "brand_image":"https://n-img4.junaroad.com/stories/story_p_67af1e8af77e5b3e2328275c-1739534842.jpeg",
+//       "title": "women casual wear georgette saree with blouse",
+//       "brand": "Handloom Weavers",
+//       "price": 2999,
+//       "before_disc": 3499,
+//       "offer_percent": 14,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Sarees",
+//         "model": "Traditional Wear"
+//       },
+//       "size": ["Free Size"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 110,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/18314327/zoom_0-1648569505.jpg"],
+//       "brand_image":"https://n-img3.junaroad.com/stories/story_p_67ad7c54107665bf1d309120-1739524741.jpeg",
+//       "title": "women's self design mustard colored saree with blouse",
+//       "brand": "Handloom Weavers",
+//       "price": 2999,
+//       "before_disc": 3499,
+//       "offer_percent": 14,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Sarees",
+//         "model": "Traditional Wear"
+//       },
+//       "size": ["Free Size"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 111,
+//       "image": ["https://n-img0.junaroad.com/uiproducts/21537017/zoom_0-1726662327.jpg"],
+//       "title": "women self design handloom saree",
+//       "brand": "Handloom Weavers",
+//       "price": 2999,
+//       "before_disc": 3499,
+//       "offer_percent": 14,
+//       "category": {
+//         "gender": "Women",
+//         "type": "Sarees",
+//         "model": "Traditional Wear"
+//       },
+//       "size": ["Free Size"],
+//       "Quantity": 1
+//     },
+//     {
+//       "id": 112,
+//       "image": [
+//           "https://n-img0.junaroad.com/uiproducts/20957996/zoom_0-1707751525.jpg"
+//       ],
+//       "title": "Elegant Handcrafted Tote Bag",
+//       "brand": "Urban Chic",
+//       "price": 899,
+//       "before_disc": 1299,
+//       "offer_percent": 31,
+//       "category": {
+//           "gender": "Women",
+//           "type": "Bags",
+//           "model": "Accessories"
+//       },
+//       "size": [
+//           "One Size"
+//       ],
+//       "Quantity": 1
+//   },
+//   {
+//       "id": 113,
+//       "image": [
+//           "https://n-img1.junaroad.com/uiproducts/20957995/zoom_0-1707751525.jpg"
+//       ],
+//       "title": "women embellished velvet regular potli",
+//       "brand": "Femme Luxe",
+//       "price": 1299,
+//       "before_disc": 1799,
+//       "offer_percent": 28,
+//       "category": {
+//           "gender": "Women",
+//           "type": "Bags",
+//           "model": "Accessories"
+//       },
+//       "size": [
+//           "One Size"
+//       ],
+//       "Quantity": 1
+//   },
+//   {
+//       "id": 114,
+//       "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21457046/zoom_0-1724160265.jpg"
+//       ],
+//       "brand_image":"https://n-img0.junaroad.com/stories/story_p_67a34cac107665d19bca6452-1738837015.jpeg",
+//       "title": "women black pu handbag",
+//       "brand": "TravelStyle",
+//       "price": 749,
+//       "before_disc": 999,
+//       "offer_percent": 25,
+//       "category": {
+//           "gender": "Women",
+//           "type": "Bags",
+//           "model": "Accessories"
+//       },
+//       "size": [
+//           "One Size"
+//       ],
+//       "Quantity": 1
+//   },
+//   {
+//       "id": 115,
+//       "image": [
+//           "https://n-img1.junaroad.com/uiproducts/21071607/zoom_0-1730892381.jpg"
+//       ],
+//       "brand_image":"https://n-img3.junaroad.com/stories/story_p_679ca303c8c932ec03cf33cc-1738321040.jpeg",
+//       "title": "green leatherette (pu) textured handbag",
+//       "brand": "Elegance",
+//       "price": 599,
+//       "before_disc": 799,
+//       "offer_percent": 25,
+//       "category": {
+//           "gender": "Women",
+//           "type": "Bags",
+//           "model": "Accessories"
+//       },
+//       "size": [
+//           "One Size"
+//       ],
+//       "Quantity": 1
+//   },
+//   {
+//       "id": 116,
+//       "image": [
+//           "https://n-img0.junaroad.com/uiproducts/20977372/zoom_0-1711537498.jpg"
+//       ],
+//       "brand_image":"https://n-img0.junaroad.com/stories/story_p_6798a616f77e5bd0c0705cfe-1738064317.jpeg",
+//       "title": "Luxury Clutch Purse",
+//       "brand": "PartySpark",
+//       "price": 1599,
+//       "before_disc": 2099,
+//       "offer_percent": 24,
+//       "category": {
+//           "gender": "Women",
+//           "type": "Bags",
+//           "model": "Accessories"
+//       },
+//       "size": [
+//           "One Size"
+//       ],
+//       "Quantity": 1
+//   },
+//   {
+//       "id": 117,
+//       "image": [
+//           "https://n-img1.junaroad.com/uiproducts/21631984/zoom_0-1730892379.jpg"
+//       ],
+//       "brand_image":"https://n-img3.junaroad.com/stories/story_p_67ac89b6429fe20955dfa98f-1739365144.jpeg",
+//       "title": "women white solid handbag",
+//       "brand": "Everyday Style",
+//       "price": 499,
+//       "before_disc": 699,
+//       "offer_percent": 29,
+//       "category": {
+//           "gender": "Women",
+//           "type": "Bags",
+//           "model": "Accessories"
+//       },
+//       "size": [
+//           "One Size"
+//       ],
+//       "Quantity": 1
+//   },
+//   {
+//       "id": 118,
+//       "image": [
+//           "https://n-img1.junaroad.com/uiproducts/21457039/zoom_0-1724160267.jpg"
+//       ],
+//       "title": "women brown pu handbag",
+//       "brand": "CasualEdge",
+//       "price": 799,
+//       "before_disc": 1099,
+//       "offer_percent": 27,
+//       "category": {
+//           "gender": "Women",
+//           "type": "Bags",
+//           "model": "Accessories"
+//       },
+//       "size": [
+//           "One Size"
+//       ],
+//       "Quantity": 1
+//   },
+//   {
+//       "id": 119,
+//       "image": [
+//           "https://n-img0.junaroad.com/uiproducts/19185143/zoom_0-1673967434.jpg"
+//       ],
+//       "brand_image":"https://n-img0.junaroad.com/stories/story_p_679732f07c7328328b865308-1739353428.jpeg",
+//       "title": "blue lace-up sneaker shoe",
+//       "brand": "GlamWalk",
+//       "price": 1299,
+//       "before_disc": 1799,
+//       "offer_percent": 28,
+//       "category": {
+//           "gender": "Women",
+//           "type": "Shoes",
+//           "model": "footwear"
+//       },
+//       "size": [
+//           "36",
+//           "37",
+//           "38",
+//           "39",
+//           "40",
+//           "41"
+//       ],
+//       "Quantity": 1
+//   },
+//   {
+//       "id": 120,
+//       "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21170443/zoom_0-1715967827.jpg"
+//       ],
+//       "title": "multi colored synthetic & mesh laceup sports shoes",
+//       "brand": "UrbanRun",
+//       "price": 999,
+//       "before_disc": 1399,
+//       "offer_percent": 29,
+//       "category": {
+//           "gender": "Women",
+//           "type": "Shoes",
+//           "model": "Shoes"
+//       },
+//       "size": [
+//           "36",
+//           "37",
+//           "38",
+//           "39",
+//           "40",
+//           "41"
+//       ],
+//       "Quantity": 1
+//   },
+//   {
+//       "id": 121,
+//       "image": [
+//           "https://n-img1.junaroad.com/uiproducts/21685442/pri_175_p-1735140783.jpg"
+//       ],
+//       "title": "women lace-up sneakers",
+//       "brand": "SimpleSteps",
+//       "price": 799,
+//       "before_disc": 1099,
+//       "offer_percent": 27,
+//       "category": {
+//           "gender": "Women",
+//           "type": "Shoes",
+//           "model": "Shoes"
+//       },
+//       "size": [
+//           "36",
+//           "37",
+//           "38",
+//           "39",
+//           "40",
+//           "41"
+//       ],
+//       "Quantity": 1
+//   },
+//   {
+//       "id": 122,
+//       "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21170465/pri_175_p-1713524721.jpg"
+//       ],
+//       "title": "light blue lace-up sports shoes",
+//       "brand": "DanceDivas",
+//       "price": 1499,
+//       "before_disc": 2099,
+//       "offer_percent": 29,
+//       "category": {
+//           "gender": "Women",
+//           "type": "Shoes",
+//           "model": "Shoes"
+//       },
+//       "size": [
+//           "36",
+//           "37",
+//           "38",
+//           "39",
+//           "40",
+//           "41"
+//       ],
+//       "Quantity": 1
+//   },
+//   {
+//       "id": 123,
+//       "image": [
+//           "https://n-img0.junaroad.com/uiproducts/20381973/pri_175_p-1696472803.jpg"
+//       ],
+//       "title": "grey flyknit laceup sports shoes",
+//       "brand": "ActiveFeet",
+//       "price": 1199,
+//       "before_disc": 1699,
+//       "offer_percent": 29,
+//       "category": {
+//           "gender": "Women",
+//           "type": "Shoes",
+//           "model": "Shoes"
+//       },
+//       "size": [
+//           "36",
+//           "37",
+//           "38",
+//           "39",
+//           "40",
+//           "41"
+//       ],
+//       "Quantity": 1
+//   },
+//   {
+//       "id": 124,
+//       "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21057781/pri_175_p-1738740556.jpg"
+//       ],
+//       "title": "women grey & blue lace-up sneaker",
+//       "brand": "SunnySteps",
+//       "price": 599,
+//       "before_disc": 799,
+//       "offer_percent": 25,
+//       "category": {
+//           "gender": "Women",
+//           "type": "Shoes",
+//           "model": "Shoes"
+//       },
+//       "size": [
+//           "36",
+//           "37",
+//           "38",
+//           "39",
+//           "40",
+//           "41"
+//       ],
+//       "Quantity": 1
+//   },
+//   {
+//       "id": 125,
+//       "image": [
+//           "https://n-img0.junaroad.com/uiproducts/21629957/zoom_0-1730280732.jpg"
+//       ],
+//       "title": "girls floral square neck frock",
+//       "brand": "RainyDay",
+//       "price": 1499,
+//       "before_disc": 1999,
+//       "offer_percent": 25,
+//       "category": {
+//           "gender": "Kids",
+//           "type": "frocs",
+//           "model": "Clothing"
+//       },
+//       "size": [
+//           "0-2 yrs",
+//           "3-5 yrs",
+//           "6-10 yrs",
+//           "10-12 yrs"
+//         ],
+//       "Quantity": 1
+//   },
+//   {
+//     "id": 126,
+//     "image": [
+//         "https://n-img0.junaroad.com/uiproducts/21174595/pri_175_p-1713900136.jpg"
+//     ],
+//     "title": "girl solid round neck sleeveless frock",
+//     "brand": "RainyDay",
+//     "price": 1499,
+//     "before_disc": 1999,
+//     "offer_percent": 25,
+//     "category": {
+//         "gender": "Kids",
+//         "type": "frocs",
+//         "model": "Clothing"
+//     },
+//     "size": [
+//         "0-2 yrs",
+//         "3-5 yrs",
+//         "6-10 yrs",
+//         "10-12 yrs"
+//       ],
+//     "Quantity": 1
+// },
+// {
+//   "id": 127,
+//   "image": [
+//       "https://n-img2.junaroad.com/uiproducts/19370796/pri_175_p-1676606518.jpg"
+//   ],
+//   "title": "girls round neck sleeveless frock",
+//   "brand": "RainyDay",
+//   "price": 1499,
+//   "before_disc": 1999,
+//   "offer_percent": 25,
+//   "category": {
+//       "gender": "Kids",
+//       "type": "frocs",
+//       "model": "Clothing"
+//   },
+//   "size": [
+//       "0-2 yrs",
+//       "3-5 yrs",
+//       "6-10 yrs",
+//       "10-12 yrs"
+//     ],
+//   "Quantity": 1
+// },
+// {
+//   "id": 128,
+//   "image": [
+//       "https://n-img0.junaroad.com/uiproducts/19370805/pri_175_p-1676606517.jpg"
+//   ],
+//   "title": "girls round neck sleeveless frock",
+//   "brand": "RainyDay",
+//   "price": 1499,
+//   "before_disc": 1999,
+//   "offer_percent": 25,
+//   "category": {
+//       "gender": "Kids",
+//       "type": "frocs",
+//       "model": "Clothing"
+//   },
+//   "size": [
+//       "0-2 yrs",
+//       "3-5 yrs",
+//       "6-10 yrs",
+//       "10-12 yrs"
+//     ],
+//   "Quantity": 1
+// },
+// {
+//   "id": 129,
+//   "image": [
+//       "https://n-img0.junaroad.com/uiproducts/20396813/pri_175_p-1696933593.jpg"
+//   ],
+//   "title": "girls halter neck sleeveless frock",
+//   "brand": "RainyDay",
+//   "price": 1499,
+//   "before_disc": 1999,
+//   "offer_percent": 25,
+//   "category": {
+//       "gender": "Kids",
+//       "type": "frocs",
+//       "model": "Clothing"
+//   },
+//   "size": [
+//       "0-2 yrs",
+//       "3-5 yrs",
+//       "6-10 yrs",
+//       "10-12 yrs"
+//     ],
+//   "Quantity": 1
+// },
+// {
+//   "id": 130,
+//   "image": [
+//       "https://n-img0.junaroad.com/uiproducts/21617049/zoom_0-1729782239.jpg"
+//   ],
+//   "brand_image":"https://n-img0.junaroad.com/stories/story_p_679b3f6f7c7328328b8a866b-1738228137.jpeg",
+//   "title": "boys round neck chest print short sleeves t-shirt",
+//   "brand": "RainyDay",
+//   "price": 1499,
+//   "before_disc": 1999,
+//   "offer_percent": 25,
+//   "category": {
+//       "gender": "Kids",
+//       "type": "T-shirt",
+//       "model": "Clothing"
+//   },
+//   "size": [
+//       "0-2 yrs",
+//       "3-5 yrs",
+//       "6-10 yrs",
+//       "10-12 yrs"
+//     ],
+//   "Quantity": 1
+// },
+// {
+//   "id": 131,
+//   "image": [
+//       "https://n-img0.junaroad.com/uiproducts/21099067/zoom_0-1712851064.jpg"
+//   ],
+//   "title": "boys round neck typographic regular t-shirt",
+//   "brand": "RainyDay",
+//   "price": 1499,
+//   "before_disc": 1999,
+//   "offer_percent": 25,
+//   "category": {
+//       "gender": "Kids",
+//       "type": "T-shirt",
+//       "model": "Clothing"
+//   },
+//   "size": [
+//       "0-2 yrs",
+//       "3-5 yrs",
+//       "6-10 yrs",
+//       "10-12 yrs"
+//     ],
+//   "Quantity": 1
+// },
+// {
+//   "id": 132,
+//   "image": [
+//       "https://n-img0.junaroad.com/uiproducts/20536113/zoom_0-1700733799.jpg"
+//   ],
+//   "title": "boys round neck front printed t-shirt",
+//   "brand": "RainyDay",
+//   "price": 299,
+//   "before_disc": 399,
+//   "offer_percent": 25,
+//   "category": {
+//       "gender": "Kids",
+//       "type": "T-shirt",
+//       "model": "Clothing"
+//   },
+//   "size": [
+//       "0-2 yrs",
+//       "3-5 yrs",
+//       "6-10 yrs",
+//       "10-12 yrs"
+//     ],
+//   "Quantity": 1
+// },
+// {
+//   "id": 133,
+//   "image": [
+//       "https://n-img0.junaroad.com/uiproducts/21618903/zoom_0-1729782238.jpg"
+//   ],
+//   "brand_image":"https://n-img2.junaroad.com/stories/story_p_67a9a20ec8c932afd20b3ead-1739335079.jpeg",
+//   "title": "girls round neck printed short sleeves t-shirt",
+//   "brand": "RainyDay",
+//   "price": 299,
+//   "before_disc": 399,
+//   "offer_percent": 25,
+//   "category": {
+//       "gender": "Kids",
+//       "type": "T-shirt",
+//       "model": "Clothing"
+//   },
+//   "size": [
+//       "0-2 yrs",
+//       "3-5 yrs",
+//       "6-10 yrs",
+//       "10-12 yrs"
+//     ],
+//   "Quantity": 1
+// }
+// ,
+// {
+//   "id": 134,
+//   "image": [
+//       "https://n-img1.junaroad.com/uiproducts/21641968/pri_175_p-1731615711.jpg"
+//   ],
+ 
+//   "title": "boys round neck front printed t-shirt",
+//   "brand": "RainyDay",
+//   "price": 299,
+//   "before_disc": 399,
+//   "offer_percent": 25,
+//   "category": {
+//       "gender": "Kids",
+//       "type": "T-shirt",
+//       "model": "Clothing"
+//   },
+//   "size": [
+//       "0-2 yrs",
+//       "3-5 yrs",
+//       "6-10 yrs",
+//       "10-12 yrs"
+//     ],
+//   "Quantity": 1
+// }
+// ,
+// {
+//   "id": 135,
+//   "image": [
+//       "https://n-img0.junaroad.com/uiproducts/20376924/zoom_0-1711745442.jpg"
+//   ],
+//   "title": "grey cotton suit set jackets & coat",
+//   "brand": "RainyDay",
+//   "price": 1299,
+//   "before_disc": 1399,
+//   "offer_percent": 25,
+//   "category": {
+//       "gender": "Kids",
+//       "type": "SuitSet",
+//       "model": "Clothing"
+//   },
+//   "size": [
+//       "0-2 yrs",
+//       "3-5 yrs",
+//       "6-10 yrs",
+//       "10-12 yrs"
+//     ],
+//   "Quantity": 1
+// }
+// ,
+// {
+//   "id": 136,
+//   "image": [
+//       "https://n-img0.junaroad.com/uiproducts/20806461/zoom_0-1711745668.jpg"
+//   ],
+//   "title": "boys solid three piece party wear suit set",
+//   "brand": "RainyDay",
+//   "price": 299,
+//   "before_disc": 399,
+//   "offer_percent": 25,
+//   "category": {
+//       "gender": "Kids",
+//       "type": "SuitSet",
+//       "model": "Clothing"
+//   },
+//   "size": [
+//       "0-2 yrs",
+//       "3-5 yrs",
+//       "6-10 yrs",
+//       "10-12 yrs"
+//     ],
+//   "Quantity": 1
+// }
+// ,
+// {
+//   "id": 137,
+//   "image": [
+//       "https://n-img0.junaroad.com/uiproducts/20653824/zoom_0-1711745519.jpg"
+//   ],
+//   "brand_image":"https://n-img3.junaroad.com/stories/story_p_67a9a6c97c732811ad6be5e7-1739336053.jpeg",
+//   "title": "boys solid long sleeve suit set",
+//   "brand": "RainyDay",
+//   "price": 299,
+//   "before_disc": 399,
+//   "offer_percent": 25,
+//   "category": {
+//       "gender": "Kids",
+//       "type": "SuitSet",
+//       "model": "Clothing"
+//   },
+//   "size": [
+//       "0-2 yrs",
+//       "3-5 yrs",
+//       "6-10 yrs",
+//       "10-12 yrs"
+//     ],
+//   "Quantity": 1
+// },
+// {
+//   "id": 138,
+//   "image": [
+//       "https://n-img0.junaroad.com/uiproducts/21177343/zoom_0-1713789853.jpg"
+//   ],
+//   "brand_image":"https://n-img0.junaroad.com/stories/story_p_679c5459f77e5bd0c073a549-1738299174.jpeg",
+//   "title": "boys solid long sleeve suit set",
+//   "brand": "RainyDay",
+//   "price": 299,
+//   "before_disc": 399,
+//   "offer_percent": 25,
+//   "category": {
+//       "gender": "Kids",
+//       "type": "ethnic",
+//       "model": "Clothing"
+//   },
+//   "size": [
+//       "0-2 yrs",
+//       "3-5 yrs",
+//       "6-10 yrs",
+//       "10-12 yrs"
+//     ],
+//   "Quantity": 1
+// },
+// {
+//   "id": 139,
+//   "image": [
+//       "https://n-img0.junaroad.com/uiproducts/21585571/zoom_0-1729216946.jpg"
+//   ],
+//   "brand_image":"https://n-img4.junaroad.com/stories/story_p_67a9cf6b429fe2bdf3425331-1739335514.jpeg",
+//   "title": "boys embroidered long sleeves kurta set",
+//   "brand": "RainyDay",
+//   "price": 299,
+//   "before_disc": 399,
+//   "offer_percent": 25,
+//   "category": {
+//       "gender": "Kids",
+//       "type": "ethnic",
+//       "model": "Clothing"
+//   },
+//   "size": [
+//       "0-2 yrs",
+//       "3-5 yrs",
+//       "6-10 yrs",
+//       "10-12 yrs"
+//     ],
+//   "Quantity": 1
+// },
+// {
+//   "id": 140,
+//   "image": [
+//       "https://n-img0.junaroad.com/uiproducts/20589592/zoom_0-1708687564.jpg"
+//   ],
+//   "brand_image":"https://n-img0.junaroad.com/stories/story_p_679c57adc8c932ec03cec739-1738301133.jpeg",
+//   "title": "teal printed printed kurta",
+//   "brand": "RainyDay",
+//   "price": 299,
+//   "before_disc": 399,
+//   "offer_percent": 25,
+//   "category": {
+//       "gender": "Kids",
+//       "type": "ethnic",
+//       "model": "Clothing"
+//   },
+//   "size": [
+//       "0-2 yrs",
+//       "3-5 yrs",
+//       "6-10 yrs",
+//       "10-12 yrs"
+//     ],
+//   "Quantity": 1
+// },
+// {
+//   "id": 141,
+//   "image": [
+//       "https://n-img0.junaroad.com/uiproducts/21563897/zoom_0-1735968510.jpg"
+//   ],
+//   "brand_image":"https://n-img4.junaroad.com/stories/story_p_67a9c41d107665fa7f381606-1739335543.jpeg",
+//   "title": "girls floral printed kurta sharara set with dupatta",
+//   "brand": "RainyDay",
+//   "price": 299,
+//   "before_disc": 399,
+//   "offer_percent": 25,
+//   "category": {
+//       "gender": "Kids",
+//       "type": "ethnic",
+//       "model": "Clothing"
+//   },
+//   "size": [
+//       "0-2 yrs",
+//       "3-5 yrs",
+//       "6-10 yrs",
+//       "10-12 yrs"
+//     ],
+//   "Quantity": 1
+// },
+// {
+//   "id": 142,
+//   "image": [
+//       "https://n-img0.junaroad.com/uiproducts/21352852/zoom_0-1719387304.jpg"
+//   ],
+//   "title": "girls beige printed kurta sharara set",
+//   "brand": "RainyDay",
+//   "price": 299,
+//   "before_disc": 399,
+//   "offer_percent": 25,
+//   "category": {
+//       "gender": "Kids",
+//       "type": "ethnic",
+//       "model": "Clothing"
+//   },
+//   "size": [
+//       "0-2 yrs",
+//       "3-5 yrs",
+//       "6-10 yrs",
+//       "10-12 yrs"
+//     ],
+//   "Quantity": 1
+// },
+// {
+//   "id": 143,
+//   "image": [
+//       "https://n-img0.junaroad.com/uiproducts/18702754/zoom_0-1669305533.jpg"
+//   ],
+//   "title": "premium bed sheet sets",
+//   "brand": "RainyDay",
+//   "price": 299,
+//   "before_disc": 399,
+//   "offer_percent": 25,
+//   "category": {
+//       "gender": "home",
+//       "type": "BedSheets",
+//       "model": "bed"
+//   },
+//   "size": [
+//       "King Size (108 x 108 inch)"
+//     ],
+//   "Quantity": 1
+// }
+// ]

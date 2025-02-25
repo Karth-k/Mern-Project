@@ -1,0 +1,88 @@
+/* Page Background */
+.vendor-con{
+  max-width: fit-content;
+  margin: 50px auto;
+  background-color:white;
+  padding: 20px;
+  
+  text-align: center;
+ 
+}
+
+
+.vendor-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.vendor-products-grid {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  gap: 20px;
+}
+
+.vendor-card {
+  width: 280px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.vendor-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: fill;
+}
+
+.vendor-card h5 {
+  font-size: 18px;
+  color: black;
+}
+
+.vendor-card p {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.vendor-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: green;
+}
+
+.vendor-before-price {
+  text-decoration: line-through;
+  color: gray;
+  margin-left: 5px;
+}
+
+.vendor-discount {
+  color: red;
+  margin-left: 5px;
+}
+
+
+.vendor-actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.vendor-actions svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.vendor-card:hover {
+  background-color: white;
+  box-shadow: none;
+}

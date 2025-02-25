@@ -1,0 +1,74 @@
+
+.vendor-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .vendor-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+ 
+  .vendor-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+
+  .vendor-form input {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+  }
+ 
+  .vendor-form input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+
+  .gender-selection {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .gender-selection label {
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+
+  .submit-button {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .submit-button:hover {
+    background: #0056b3;
+  }
+
+  @media (max-width: 600px) {
+    .vendor-container {
+      width: 90%;
+    }
+  }
+  

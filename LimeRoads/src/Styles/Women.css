@@ -1,0 +1,115 @@
+.women-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+
+.women-container .women-sidebar {
+  width: 250px;
+  flex-shrink: 0;
+}
+
+
+.women-products-section {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.women-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.women-product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+}
+
+.women-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.women-card:hover {
+  transform: translateY(-5px);
+}
+
+.women-card-img-top {
+  width: 100%;
+  height: 400px; 
+  object-fit: fill; 
+  border-radius: 8px; 
+}
+
+.women-card-body {
+  padding: 10px;
+}
+
+.women-card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.women-card-text {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.women-price-section {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.women-product-price {
+  font-size: 1.2rem;
+  color: #28a745;
+  font-weight: bold;
+}
+
+.women-product-before {
+  font-size: 0.9rem;
+  text-decoration: line-through;
+  color: #999;
+}
+
+.women-product-offer {
+  font-size: 0.9rem;
+  color: #e63946;
+}
+
+.women-action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.women-heart-icon,
+.women-whatsapp-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.women-heart-icon:hover {
+  color: #e63946;
+}
+
+.women-whatsapp-icon:hover {
+  color: #25d366;
+}

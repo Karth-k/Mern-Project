@@ -22,6 +22,7 @@ import ResetPassword from "../Pages/ResetPassword";
 import Vendor from "../Pages/Vendor";
 import VendorProdcuts from "../Pages/VendorProdcuts";
 
+
 const AllRoutes = ()=>{
     return(<div>
      
@@ -48,7 +49,7 @@ const AllRoutes = ()=>{
         
         <Footer/>
       
-    
+        
 
         </div>)
 }

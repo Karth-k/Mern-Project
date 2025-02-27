@@ -6,15 +6,17 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import Swal from "sweetalert2";
 import ForgotPassword from "./ForgotPassword";
+import { clearCart } from "../Redux/cartSlice";
+import { useDispatch } from "react-redux";
+import { fetchCartFromBackend } from "../Redux/cartSlice";
 
 
 function Profile() {
 
   const [showModal, setShowModal] = useState(false);
-
   const handleClose = () => setShowModal(false);
   const handleShow = () => setShowModal(true);
-
+  const dispatch = useDispatch();
 
 
   const navigate = useNavigate();
@@ -32,8 +34,12 @@ function Profile() {
     if (storedToken && storedrole) {
       setSessionActive(true);
       setrole(storedrole);
+
+      if (storedrole === "vendor") {
+        navigate("/Vendor");
+      }
     }
-  }, []);
+  }, [navigate]);
 
   const updateField = (e) => {
     const { name, value } = e.target;
@@ -61,6 +67,7 @@ function Profile() {
 
       localStorage.setItem("authToken", authToken);
       localStorage.setItem("role", role);
+      await fetchCartFromBackend(dispatch);
 
       setSessionActive(true);
       setrole(role);  
@@ -71,8 +78,10 @@ function Profile() {
       }).then(() => {
         if (role === "customer") {
           navigate("/");
+          window.location.reload();
         } else if (role === "vendor") {
           navigate("/Vendor");
+          window.location.reload();
         } else if (role === "admin") {
           navigate("/");
         } else {
@@ -90,6 +99,8 @@ function Profile() {
     localStorage.removeItem("role");
     setSessionActive(false);
     setrole("");
+    dispatch(clearCart());
+    window.location.reload();
   };
 
   if (sessionActive) {
@@ -122,13 +133,9 @@ function Profile() {
           <button type="submit" className="btn btn-secondary w-100 p-2 mb-2">
             NEXT
           </button>
-          <Link to="/RegistrationForm" className="text-decoration-none text-safe pd-10">
-            New User? Register Here
-          </Link>
+          <Link to="/RegistrationForm" className="text-decoration-none text-safe pd-10">New User? Register Here </Link>
           <br />
-          <button className="btn btn-link text-danger" type="button" onClick={handleShow}>
-            Forgot Password?
-          </button>
+          <button className="btn btn-link text-danger" type="button" onClick={handleShow}>Forgot Password?</button>
         </form>
       </div>
       <Modal show={showModal} onHide={handleClose} centered>

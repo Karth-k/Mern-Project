@@ -1,7 +1,9 @@
 const mongoose = require("mongoose");
 
 const dataSchema = new mongoose.Schema({
-  image: [String] , 
+  image: [String], 
+  image_1: [String],
+  image_2: [String],
   brand_image: String,
   title: { type: String, required: true },
   brand: String,
@@ -19,19 +21,3 @@ const dataSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model("Data", dataSchema);
-
-
-
-
-
-// const mongoose = require('mongoose');
-
-// const customerSchema = new mongoose.Schema({
-//   name: { type: String, required: true },
-//   phoneNumber: { type: String, required: true },
-//   email: { type: String, required: true, unique: true },
-//   password: { type: String, required: true },
-//   role: { type: String, required: true },
-// });
-
-// module.exports = mongoose.model('Customer', customerSchema);

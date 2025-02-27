@@ -35,7 +35,7 @@ const Homepr = () => {
           <h1 className="home-title text-center my-4">Home Products</h1>
           <div className="row" style={{justifyContent:"space-around"}}>
             {products.map((product) => (
-              <div className="home-card-container col-md-4 mb-4"  key={product.id} onClick={() => navigate(`/product/${product.id}`)} style={{ cursor: "pointer" }} >
+              <div className="home-card-container col-md-4 mb-4"  key={product._id} onClick={() => navigate(`/product/${product._id}`)} style={{ cursor: "pointer" }} >
                 <div className="home-card h-100">
                   <img  src={product.image[0]}  className="home-card-img-top" alt={product.title}/>
                   <div className="home-card-body text-center">

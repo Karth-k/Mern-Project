@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { FaHeart, FaWhatsapp } from "react-icons/fa";
-import { Link } from "react-router-dom";
-import "../Styles/Vendorpr.css";
+import { Link, useNavigate } from "react-router-dom";
 
 const VendorProducts = () => {
   const [products, setProducts] = useState([]);
-  const token = localStorage.getItem("authToken"); 
+  const navigate = useNavigate();
+  const token = localStorage.getItem("authToken");
 
   useEffect(() => {
     const fetchVendorProducts = async () => {
@@ -30,45 +29,64 @@ const VendorProducts = () => {
     fetchVendorProducts();
   }, [token]);
 
+  const handleLogout = () => {
+    localStorage.removeItem("authToken");
+    localStorage.removeItem("role");
+    navigate("/Profile");
+  };
+
   return (
-    <div className="vendor-con">
-      <div className="vendor-row">
-        <div className="vendor-col">
-          <h1 className="vendor-title">Your Added Products</h1>
-          <div className="vendor-products-grid">
-            {products.length === 0 ? (
-              <p className="vendor-no-products">No products added yet.</p>
-            ) : (
-              products.map((product) => (
-                <div className="vendor-card-wrapper" key={product._id}>
-                  <Link to={`/product/${product._id}`} className="vendor-card-link">
-                    <div className="vendor-card">
-                      <img src={product.image[0]} className="vendor-card-img" alt={product.title} />
-                      <div className="vendor-card-body">
-                        <h5 className="vendor-card-title">{product.title}</h5>
-                        <p className="vendor-card-brand">By {product.brand}</p>
-                        <div className="vendor-price-section">
-                          <span className="vendor-price">₹{product.price}</span>
-                          <span className="vendor-before-price">₹{product.before_disc}</span>
-                          <span className="vendor-discount"> {product.offer_percent}% off</span>
-                        </div>
-                        <div className="vendor-actions">
-                          <FaHeart
-                            className="vendor-icon-heart"
-                            onClick={(e) => {
-                              e.preventDefault();
-                              alert(`Liked ${product.title}`);
-                            }}
-                          />
-                          <FaWhatsapp className="vendor-icon-whatsapp" />
-                        </div>
-                      </div>
+    <div className="container my-4">
+      <div className="d-flex justify-content-between">
+        <button className="btn btn-secondary" onClick={() => navigate("/Vendor")}>
+          Back
+        </button>
+        <button className="btn btn-danger" onClick={handleLogout}>
+          Logout
+        </button>
+      </div>
+
+      <h2 className="text-center my-4">Your Added Products</h2>
+
+      <div className="container">
+        <div className="row">
+          {products.length === 0 ? (
+            <p className="text-center text-muted">No products added yet.</p>
+          ) : (
+            products.map((product) => (
+              <div className="col-12 mb-4" key={product._id}>
+                <div className="p-3 bg-white rounded shadow-sm">
+                 
+                  <div className="row">
+                    <div className="col-3">
+                      <img src={product.image[0]} className="img-fluid w-100 rounded" alt="product_img" style={{ height: "300px", objectFit: "fill" }}/>
                     </div>
-                  </Link>
+                    <div className="col-3">
+                      <img src={product.image_1} className="img-fluid w-100 rounded" alt="product_img" style={{ height: "300px", objectFit: "fill" }} />
+                    </div>
+                    <div className="col-3">
+                      <img src={product.image_2} className="img-fluid w-100 rounded" alt="product_img" style={{ height: "300px", objectFit: "fill" }} />
+                    </div>
+                    <div className="col-3">
+                      <img src={product.brand_image} className="img-fluid w-100 rounded" alt="product_img" style={{ height: "300px", objectFit: "fill" }} />
+                    </div>
+                  </div>
+
+
+                  <div className="text-center mt-2">
+                    <Link to={`/product/${product._id}`} className="text-decoration-none text-dark">
+                      <h6>{product.title}</h6>
+                      <p className="text-muted" style={{ fontSize: "14px" }}>By {product.brand}</p>
+                      <p className="fw-bold text-success" style={{ fontSize: "14px" }}>
+                        ₹{product.price} <span className="text-decoration-line-through text-muted">₹{product.before_disc}</span> 
+                        <span className="text-danger ms-2">({product.offer_percent}% off)</span>
+                      </p>
+                    </Link>
+                  </div>
                 </div>
-              ))
-            )}
-          </div>
+              </div>
+            ))
+          )}
         </div>
       </div>
     </div>

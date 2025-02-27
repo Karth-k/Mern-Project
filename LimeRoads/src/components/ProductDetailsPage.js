@@ -7,6 +7,7 @@ import { FaRegHeart } from "react-icons/fa";
 import Rating from "@mui/material/Rating";
 import Box from "@mui/material/Box";
 import StarIcon from "@mui/icons-material/Star";
+import Swal from "sweetalert2";
 
 const labels = {
   0.5: "Useless",
@@ -31,11 +32,6 @@ const ProductDetailsPage = () => {
   const [ratingValue, setRatingValue] = useState(2);
   const [hover, setHover] = useState(-1);
 
-
-
-
-
-
   useEffect(() => {
     const fetchProduct = async () => {
       try {
@@ -59,30 +55,32 @@ const ProductDetailsPage = () => {
   
     fetchProduct();
   }, [id]);
+  const handleAddToCart = () => {
+    if (!product) return;
+    if(!selectedSize){
+      Swal.fire({
+        title: "Size Required!",
+        text: "Please select a size before adding to cart.",
+        icon: "warning",
+      });
+      return;
+    }
 
-  // useEffect(() => {
-  //   const fetchProduct = async () => {
-  //     try {
-  //       const response = await axios.get(`http://localhost:5000/api/products/${id}`);
-  //       // const productData = response.data.find(item => item.id === parseInt(id));
-  //       setProduct(response.data);
+    const cartItem = {
+      _id: product._id,
+      title: product.title,
+      price: product.price,
+      image: product.image,
+      quantity: 1, 
+      selectedSize
+    };
+  dispatch(addToCart(cartItem));
+};
 
-  //       const similarResponse = await axios.get("http://localhost:5000/api/products");
-  //       const filteredProducts = similarResponse.data.filter(item =>
-  //         item.category.type === product.category.type &&
-  //         item.category.gender === product.category.gender &&
-  //         item._id.toString() !== product._id.toString()
-  //     );
-  //       setSimilarProducts(filteredProducts);
-  //     } catch (error) {
-  //       console.error("Error fetching product:", error);  
-  //     } 
-  //   };
-  //   fetchProduct();
-  // }, [id]);
-
+  if (!product) {
+    return <p>Loading product details...</p>;
+  }
   if (!product) return <div>Loading...</div>;
-
   return (
     <div className="container mt-4">
       <div className="d-flex">
@@ -136,22 +134,15 @@ const ProductDetailsPage = () => {
                       style={{  margin: "5px",  padding: "10px 15px",  border: "1px solid #ccc",  borderRadius: "4px",  cursor: "pointer", backgroundColor: selectedSize === size ? "#28a745" : "#fff", color: selectedSize === size ? "#fff" : "#000"  }}> 
                       {size} </button> ))} 
                 </div>
-
-
           <p><strong>Price:</strong> 
               <span style={{ color: "green" }}>₹{product.price}</span></p>
           <p><span style={{ color: "green", fontWeight: "bold" }}>{product.offer_percent}% OFF</span></p>
           <p><strong>Before Discount:</strong> <span style={{ textDecoration: "line-through" }}>₹{product.before_disc}</span></p>
-          <button onClick={() => {
-              if (!selectedSize) {
-                alert("Please select a size...");
-                return;
-              }
-              dispatch(addToCart({ ...product,  selectedSize }));
-            }}
-            style={{ marginRight: "10px", padding: "10px 20px", backgroundColor: "#28a745", color: "#fff", border: "none", borderRadius: "4px", cursor: "pointer" }}>
-            ADD TO CART
-          </button>
+          <button 
+            onClick={handleAddToCart} 
+              style={{  marginRight: "10px",  padding: "10px 20px",  backgroundColor: "#28a745",  color: "#fff",  border: "none",  borderRadius: "4px", cursor: "pointer" }}>
+              ADD TO CART
+            </button>
           <button onClick={() => navigate("/Profile")} style={{ padding: "10px 20px", backgroundColor: "#fff", color: "#28a745", border: "1px solid #28a745", borderRadius: "4px", cursor: "pointer" }}>
             <FaRegHeart />
           </button>
@@ -217,3 +208,39 @@ const ProductDetailsPage = () => {
 };
 
 export default ProductDetailsPage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // Store in local storage
+    // const storedCart = JSON.parse(localStorage.getItem("cart")) || [];
+    // localStorage.setItem("cart", JSON.stringify([...storedCart, cartItem]));
+// useEffect(() => {
+  //   const fetchProduct = async () => {
+  //     try {
+  //       const response = await axios.get(`http://localhost:5000/api/products/${id}`);
+  //       // const productData = response.data.find(item => item.id === parseInt(id));
+  //       setProduct(response.data);
+
+  //       const similarResponse = await axios.get("http://localhost:5000/api/products");
+  //       const filteredProducts = similarResponse.data.filter(item =>
+  //         item.category.type === product.category.type &&
+  //         item.category.gender === product.category.gender &&
+  //         item._id.toString() !== product._id.toString()
+  //     );
+  //       setSimilarProducts(filteredProducts);
+  //     } catch (error) {
+  //       console.error("Error fetching product:", error);  
+  //     } 
+  //   };
+  //   fetchProduct();
+  // }, [id]);

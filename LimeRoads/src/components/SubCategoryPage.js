@@ -37,7 +37,7 @@ const SubCategoryPage = () => {
           <div className="women-product-list">
             {products.length > 0 ? (
               products.map((product) => (
-                <div  className="women-card" key={product.id} onClick={() => navigate(`/product/${product.id}`)}>
+                <div  className="women-card" key={product._id} onClick={() => navigate(`/product/${product._id}`)}>
                   <img  src={product.image[0]}  className="women-card-img-top" alt={product.title}/>
                   <div className="women-card-body">
                     <h5 className="women-card-title">{product.title}</h5>

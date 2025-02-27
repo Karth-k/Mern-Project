@@ -9,11 +9,11 @@ const Cart = () => {
   const cart = useSelector(state => state.cart);
   const dispatch = useDispatch();
 
-  const handleQuantityChange = (id, selectedSize ,quantity) => {
+  const handleQuantityChange = (_id, selectedSize ,quantity) => {
     if (quantity < 1) {
-      dispatch(removeFromCart(id));
+      dispatch(removeFromCart(_id));
     } else {
-      dispatch(updateQuantity({ id, selectedSize  ,quantity }));
+      dispatch(updateQuantity({ _id, selectedSize  ,quantity }));
     }
   };
 
@@ -30,8 +30,8 @@ const Cart = () => {
         </div>
         <div className="cart-items">
           {cart.map(item => (
-            <div className="cart-item" key={item.id}>
-              <Link to={`/product/${item.id}`}>
+            <div className="cart-item" key={item._id}>
+              <Link to={`/product/${item._id}`}>
                   <img src={item.image[0]} alt={item.title} className="cart-item-image" />
               </Link>
               <div className="cart-item-details">
@@ -39,13 +39,13 @@ const Cart = () => {
                 <p className="item-description">Cotton T-shirt</p>
                 <p className="item-size">Size: {item.selectedSize}</p>
                 <div className="quantity-controls">
-                  <button  className="quantity-btn" onClick={() => handleQuantityChange(item.id,item.selectedSize, item.quantity - 1)}>-</button>
+                  <button  className="quantity-btn" onClick={() => handleQuantityChange(item._id,item.selectedSize, item.quantity - 1)}>-</button>
                   <span className="quantity-value">{item.quantity}</span>
-                  <button  className="quantity-btn"  onClick={() => handleQuantityChange(item.id, item.selectedSize,item.quantity + 1)}>+</button>
+                  <button  className="quantity-btn"  onClick={() => handleQuantityChange(item._id, item.selectedSize,item.quantity + 1)}>+</button>
                 </div>
                 <p className="item-price">₹{item.price * item.quantity}</p>
               </div>
-              <button  className="remove-btn"  onClick={() => dispatch(removeFromCart(item.id))}><HiXMark/></button>
+              <button  className="remove-btn"  onClick={() => dispatch(removeFromCart(item._id))}><HiXMark/></button>
             </div>
           ))}
         </div>
@@ -78,3 +78,4 @@ const Cart = () => {
 };
 
 export default Cart;
+

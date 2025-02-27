@@ -16,42 +16,24 @@ const Vendor = () => {
       icon: "success",
     }).then(() => {
       navigate("/Profile", { replace: true });
+      window.location.reload();
     });
   };
 
-
   const productTypes = [
-    "Shirts",
-    "T-Shirts",
-    "Jeans",
-    "Suits",
-    "Scandals",
-    "Watch",
-    "Kurtas",
-    "Tops",
-    "Sarees",
-    "Bags",
-    "Shoes",
-    "Frocs",
-    "SuitSet",
-    "Ethnic",
+    "Shirts", "T-Shirts", "Jeans", "Suits", "Scandals", "Watch", "Kurtas",
+    "Tops", "Sarees", "Bags", "Shoes", "Frocs", "SuitSet", "Ethnic",
   ];
 
-
-  const modelTypes=[
-    "clothing",
-    "footwear",
-    "accessories",
-    "Casual Wear",
-    "Ethnic Wear",
-    "Party Wear",
-    "Traditional Wear",
-    "Accessories",
-    "Shoes"
- ]
+  const modelTypes = [
+    "clothing", "footwear", "accessories", "Casual Wear", "Ethnic Wear",
+    "Party Wear", "Traditional Wear", "Accessories", "Shoes"
+  ];
 
   const [formData, setFormData] = useState({
     image: "",
+   image_1: "", 
+    image_2: "", 
     brand_image: "",
     title: "",
     brand: "",
@@ -77,6 +59,14 @@ const Vendor = () => {
     setFormData({ ...formData, image: e.target.value.split(",") });
   };
 
+  const handleAdditionalImageChange = (e) => {
+    setFormData({ ...formData, image_1: e.target.value.split(",") });
+  };
+
+  const handleExtraImageChange = (e) => {
+    setFormData({ ...formData, image_2: e.target.value.split(",") });
+  };
+
   const handleGenderChange = (e) => {
     setFormData({ ...formData, gender: e.target.value });
   };
@@ -84,7 +74,7 @@ const Vendor = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const token = localStorage.getItem("authToken"); 
+    const token = localStorage.getItem("authToken");
 
     if (!token) {
       Swal.fire({
@@ -97,6 +87,8 @@ const Vendor = () => {
 
     const finalData = {
       image: formData.image,
+      image_1:formData.image_1,
+      image_2:formData.image_2,
       brand_image: formData.brand_image,
       title: formData.title,
       brand: formData.brand,
@@ -117,8 +109,9 @@ const Vendor = () => {
         "http://localhost:5000/api/addProduct",
         finalData,
         {
-          headers: { Authorization: `Bearer ${token}` }, 
-        });
+          headers: { Authorization: `Bearer ${token}` },
+        }
+      );
 
       Swal.fire({
         title: "Success!",
@@ -130,6 +123,8 @@ const Vendor = () => {
 
       setFormData({
         image: "",
+        image_1: "",
+        image_2: "",
         brand_image: "",
         title: "",
         brand: "",
@@ -186,7 +181,7 @@ const Vendor = () => {
         </select>
 
         <select name="model" value={formData.model} onChange={handleChange} required>
-          <option value="">Select Type</option>
+          <option value="">Select Model</option>
           {modelTypes.map((type) => (
             <option key={type} value={type}>
               {type}
@@ -194,9 +189,9 @@ const Vendor = () => {
           ))}
         </select>
 
-        {/* <input type="text" name="type" placeholder="Type (Shirt, Shoes, etc.)" value={formData.type} onChange={handleChange} required /> */}
-        {/* <input type="text" name="model" placeholder="Model" value={formData.model} onChange={handleChange} required /> */}
-        <input type="text" name="image" placeholder="Image URLs (comma-separated)" value={formData.image} onChange={handleImageChange} required />
+        <input type="text" name="image" placeholder="Main Image " value={formData.image} onChange={handleImageChange} required />
+        <input type="text" name="image_1" placeholder="Additional Image " value={formData.image_1} onChange={handleAdditionalImageChange} required/>
+        <input type="text" name="image_2" placeholder="Extra Image " value={formData.image_2} onChange={handleExtraImageChange} required/>
         <input type="text" name="brand_image" placeholder="Brand Image URL" value={formData.brand_image} onChange={handleChange} required />
         <input type="text" name="size" placeholder="Sizes (comma-separated: S,M,L,XL)" value={formData.size} onChange={handleSizeChange} required />
         <input type="number" name="quantity" placeholder="Quantity" value={formData.quantity} onChange={handleChange} required />
@@ -204,8 +199,7 @@ const Vendor = () => {
         <button type="submit">Add Product</button>
       </form>
       <button className="btn btn-danger" style={{ marginTop: "10px" }} onClick={handleLogout}> Logout</button>
-      <Link to="/vendor-products"> <button className="btn btn-dark" style={{ marginTop: "10px" }}>View My Products</button>
-</Link>
+      <Link to="/vendor-products"> <button className="btn btn-dark" style={{ marginTop: "10px" }}>View My Products</button></Link>
     </div>
   );
 };

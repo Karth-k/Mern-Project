@@ -6,8 +6,11 @@ const bcrypt = require('bcrypt');
 const nodemailer = require('nodemailer');
 const Data = require('../model/Data');
 const Vendor = require('../model/Vendor');
+const Cart = require('../model/Cart');
+// const { default: authMiddleware } = require('../Middlewear/authMiddleware');
 dotenv.config();
 const JWT_SECRET = process.env.JWT_SECRET;
+
 
 
 let register = async (req, res) => {
@@ -220,7 +223,64 @@ const reset_password = async(req,res) =>{
       }
     };
     
-   
+
+
+
+
+    
+    
+    const sendCart = async (req, res) => {
+      const token = req.header("Authorization")?.split(" ")[1];
+    
+      if (!token) {
+        return res.status(401).json({ error: "Unauthorized: No token provided" });
+      }
+    
+      try {
+        const decoded = jwt.verify(token, process.env.JWT_SECRET);
+        req.user = decoded; 
+    
+        const { cart } = req.body;
+        console.log("Received Cart Data:", cart);
+        const userId = req.user.id;
+    
+       
+        let existingCart = await Cart.findOne({ userId });
+    
+        if (existingCart) {
+          existingCart.items = cart;
+          await existingCart.save();
+        } else {
+          await Cart.create({ userId, items: cart });
+        }
+    
+        res.status(200).json({ message: "Cart saved successfully!" });
+      } catch (error) {
+        console.error("Error saving cart:", error);
+        res.status(401).json({ error: "Unauthorized: Invalid token" });
+      }
+    };
+    
+    const showCart = async (req, res) => {
+      const token = req.header("Authorization")?.split(" ")[1];
+    
+      if (!token) {
+        return res.status(401).json({ error: "Unauthorized: No token provided" });
+      }
+    
+      try {
+        const decoded = jwt.verify(token, process.env.JWT_SECRET);
+        req.user = decoded; 
+    
+        const userId = req.user.id;
+        const cart = await Cart.findOne({ userId });
+    
+        res.status(200).json(cart ? cart.items : []);
+      } catch (error) {
+        console.error("Error fetching cart:", error);
+        res.status(401).json({ error: "Unauthorized: Invalid token" });
+      }
+    };
     
     
     
@@ -232,5 +292,11 @@ module.exports = {
   productsdetails,
   singleProductsDetails,
   addproducts,
-  vendorProducts
+  vendorProducts,
+  sendCart,showCart
+
+
 };
+
+
+

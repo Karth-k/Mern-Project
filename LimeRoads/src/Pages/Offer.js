@@ -3,7 +3,7 @@ import React from "react";
 
 const Offer = () => {
     return (
-    <h1>Mens page</h1>
+    <h1>Offers page</h1>
     
     
     )}

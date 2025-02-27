@@ -4,7 +4,9 @@ const express = require('express');
 
 const router = express.Router();
 
-const{register,login,forgot_password,reset_password,productsdetails,singleProductsDetails,addproducts,vendorProducts}= require('../Controllers/userControllers');
+const{register,login,forgot_password,reset_password,productsdetails,
+    singleProductsDetails,addproducts,vendorProducts,sendCart,showCart
+    }= require('../Controllers/userControllers');
 
 
 router.post('/register', register);
@@ -15,6 +17,10 @@ router.get('/products',productsdetails);
 router.get('/products/:id',singleProductsDetails);
 router.post('/addProduct',addproducts);
 router.get("/vendor-products", vendorProducts);
+router.post("/cart", sendCart);
+router.get("/show/cart", showCart);
+
+
 
 
 module.exports = router;

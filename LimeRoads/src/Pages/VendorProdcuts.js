@@ -28,7 +28,6 @@ const VendorProducts = () => {
 
     fetchVendorProducts();
   }, [token]);
-
   const handleLogout = () => {
     localStorage.removeItem("authToken");
     localStorage.removeItem("role");
@@ -59,7 +58,7 @@ const VendorProducts = () => {
                  
                   <div className="row">
                     <div className="col-3">
-                      <img src={product.image[0]} className="img-fluid w-100 rounded" alt="product_img" style={{ height: "300px", objectFit: "fill" }}/>
+                      <img src={product.image} className="img-fluid w-100 rounded" alt="product_img" style={{ height: "300px", objectFit: "fill" }}/>
                     </div>
                     <div className="col-3">
                       <img src={product.image_1} className="img-fluid w-100 rounded" alt="product_img" style={{ height: "300px", objectFit: "fill" }} />

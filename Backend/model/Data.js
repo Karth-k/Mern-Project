@@ -4,7 +4,7 @@ const dataSchema = new mongoose.Schema({
   image: [String], 
   image_1: [String],
   image_2: [String],
-  brand_image: String,
+  brand_image: { type: String, default: null },
   title: { type: String, required: true },
   brand: String,
   price: { type: Number, required: true },

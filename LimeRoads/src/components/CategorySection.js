@@ -44,11 +44,7 @@ const CategorySection = ({ setGender, setType }) => {
               className={`category-item ${
                 selectedCategory === category ? "active" : ""
               }`}
-              onClick={() => {
-                setSelectedCategory(category);
-                setGender(category); 
-                setType("My Feed"); 
-              }}  >
+              onClick={() => {setSelectedCategory(category); setGender(category);  setType("My Feed");  }}>
               {category}
             </button>
           </div>
@@ -61,10 +57,7 @@ const CategorySection = ({ setGender, setType }) => {
           <div className="col-auto text-center" key={index}>
             <button
               className="image-link"
-              onClick={() => {
-                setGender(selectedCategory); 
-                setType(item.label); 
-              }} >
+              onClick={() => { setGender(selectedCategory);   setType(item.label);}} >
               <img src={item.img} alt={item.label} className="circle-img" />
               <p className="mt-2">{item.label}</p>
             </button>

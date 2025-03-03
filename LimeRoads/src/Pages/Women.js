@@ -14,15 +14,16 @@ const Women = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get("http://localhost:5000/api/products");
-        const WomensProducts = response.data.filter((product) => product.category.gender === "Women");
+        const WomensProducts = response.data.filter(
+          (product) => product.category.gender === "Women"
+        );
         setProducts(WomensProducts);
-        setFilteredProducts(WomensProducts); 
+        setFilteredProducts(WomensProducts);
       } catch (error) {
         console.error("Error fetching data:", error);
       }
     };
-
-    fetchData();  
+    fetchData();
   }, []);
 
   const handleFilterChange = (filteredList) => {
@@ -30,20 +31,18 @@ const Women = () => {
   };
 
   return (
-    <div className="women-container">
+    <div className="women-container container-fluid">
       <div className="row" style={{ justifyContent: "space-around" }}>
-        <div className="col-md-3">
+        <div className="col-lg-3 col-md-4 col-sm-12">
           <Sidebar products={products} onFilterChange={handleFilterChange} />
         </div>
-
-        <div className="col-md-9">
+        <div className="col-lg-9 col-md-8 col-sm-12">
           <h1 className="women-title text-center my-4">Women's Products</h1>
           <div className="row">
             {filteredProducts.map((product) => (
-              <div className="women-card-container col-md-4 mb-4" key={product._id}
-                onClick={() => navigate(`/product/${product._id}`)} style={{ cursor: "pointer" }}>
+              <div className="women-card-container col-lg-4 col-md-6 col-sm-12 mb-4" key={product._id} onClick={() => navigate(`/product/${product._id}`)} style={{ cursor: "pointer" }}  >
                 <div className="women-card h-100">
-                  <img src={product.image[0]} className="women-card-img-top" alt={product.title} />
+                  <img src={product.image[0]} className="women-card-img-top img-fluid" alt={product.title} />
                   <div className="women-card-body text-center">
                     <h5 className="women-card-title">{product.title}</h5>
                     <p className="women-card-text text-muted">By {product.brand}</p>
@@ -53,9 +52,7 @@ const Women = () => {
                       <span className="text-danger"> {product.offer_percent}% off </span>
                     </div>
                     <div className="d-flex justify-content-center gap-3">
-                      <FaHeart className="women-heart-icon text-danger" style={{ cursor: "pointer" }}
-                        onClick={(e) => {
-                          alert(`Liked ${product.title}`)}}/>
+                      <FaHeart className="women-heart-icon text-danger" style={{ cursor: "pointer" }} onClick={(e) => { alert(`Liked ${product.title}`); }} />
                       <FaWhatsapp className="women-whatsapp-icon text-success" />
                     </div>
                   </div>

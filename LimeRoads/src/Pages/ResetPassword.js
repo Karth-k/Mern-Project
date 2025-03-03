@@ -64,35 +64,15 @@ function ResetPassword() {
     <div className="login-container d-flex justify-content-center align-items-center vh-100">
       <div className="login-card text-center p-4 shadow">
         <div className="avatar-container mb-3">
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
-            alt="Avatar"
-            className="avatar-img"
-          />
+          <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Avatar" className="avatar-img" />
           <h4 className="login-title mt-2">Reset Password</h4>
           <p className="login-subtitle text-muted">Enter a new password</p>
         </div>
         <form onSubmit={handleResetPassword}>
           <div className="form-group mb-4">
-            <input
-              type="password"
-              name="newPassword"
-              className="form-control border-0 border-bottom"
-              value={passwords.newPassword}
-              onChange={updateField}
-              placeholder="Enter new password"
-              required
-            />
+            <input type="password" name="newPassword" className="form-control border-0 border-bottom"  value={passwords.newPassword} onChange={updateField} placeholder="Enter new password" required />
             <br />
-            <input
-              type="password"
-              name="confirmPassword"
-              className="form-control border-0 border-bottom"
-              value={passwords.confirmPassword}
-              onChange={updateField}
-              placeholder="Confirm new password"
-              required
-            />
+            <input type="password" name="confirmPassword" className="form-control border-0 border-bottom" value={passwords.confirmPassword}  onChange={updateField} placeholder="Confirm new password" required />
           </div>
           <button type="submit" className="btn btn-secondary w-100 p-2 mb-2">
             RESET PASSWORD

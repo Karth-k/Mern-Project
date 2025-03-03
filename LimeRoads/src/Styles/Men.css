@@ -5,20 +5,20 @@
   padding: 0;
 }
 
-
+/* Sidebar Styling */
 .col-md-3 {
-  padding: 0 15px; 
+  padding: 0 15px;
   border-right: 1px solid #ddd;
   background-color: #f8f9fa;
 }
 
-
+/* Product Section */
 .col-md-9 {
-  padding: 20px; 
+  padding: 20px;
   background-color: #ffffff;
 }
 
-
+/* Title */
 h1.text-center {
   font-size: 2rem;
   font-weight: bold;
@@ -26,11 +26,17 @@ h1.text-center {
   margin-bottom: 30px;
 }
 
-
-.row > .col-md-4 {
-  padding: 15px; 
+/* Product Grid */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
+/* Card Layout */
+.col-md-4 {
+  padding: 15px;
+}
 
 .card {
   background-color: #fff;
@@ -45,15 +51,17 @@ h1.text-center {
   transform: translateY(-5px);
 }
 
+/* Product Image */
 .card-img-top {
   width: 100%;
   height: 300px;
-  /* object-fit: cover; */
+  object-fit: cover;
   border-bottom: 1px solid #ddd;
 }
 
 .card-body {
   padding: 15px;
+  text-align: center;
 }
 
 .card-title {
@@ -87,4 +95,54 @@ h1.text-center {
 
 .fa-whatsapp:hover {
   color: #25d366;
+}
+
+
+@media (max-width: 992px) {
+  .col-md-3 {
+    display: none;
+  }
+  
+  .col-md-9 {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .row {
+    justify-content: space-evenly;
+  }
+
+  .col-md-4 {
+    flex: 0 0 48%; 
+    max-width: 48%;
+  }
+
+  .card-img-top {
+    height: 250px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .col-md-4 {
+    flex: 0 0 100%; 
+    max-width: 100%;
+  }
+
+  .card-img-top {
+    height: 200px;
+  }
+
+  h1.text-center {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+
+  .fa-heart,
+  .fa-whatsapp {
+    font-size: 1.2rem;
+  }
 }

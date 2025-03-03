@@ -4,12 +4,10 @@
   width: 100%;
 }
 
-
 .women-container .women-sidebar {
   width: 250px;
   flex-shrink: 0;
 }
-
 
 .women-products-section {
   flex: 1;

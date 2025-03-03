@@ -1,0 +1,148 @@
+.subcategory-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.subcategory-container .col-md-3 {
+  flex-shrink: 0;
+}
+
+.subcategory-container .col-md-9 {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.subcategory-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.subcategory-product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+
+.subcategory-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.subcategory-card:hover {
+  transform: translateY(-5px);
+}
+
+
+.subcategory-card-img-top {
+  width: 100%;
+  height: auto; 
+  max-height: 400px; 
+  object-fit: fill; 
+  border-radius: 8px;
+}
+
+.subcategory-card-body {
+  padding: 10px;
+}
+
+.subcategory-card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.subcategory-card-text {
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.subcategory-price-section {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.text-success.fw-bold {
+  font-size: 1.2rem;
+}
+
+.text-muted.text-decoration-line-through {
+  font-size: 0.9rem;
+}
+
+.text-danger {
+  font-size: 0.9rem;
+}
+
+.d-flex.justify-content-center.gap-3 {
+  margin-top: 10px;
+}
+
+.subcategory-heart-icon,
+.subcategory-whatsapp-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.subcategory-heart-icon:hover {
+  color: #e63946;
+}
+
+.subcategory-whatsapp-icon:hover {
+  color: #25d366;
+}
+
+
+
+
+@media (max-width: 1024px) {
+  .subcategory-product-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .subcategory-card-img-top {
+    max-height: 300px; 
+  }
+}
+
+
+@media (max-width: 768px) {
+  .subcategory-container {
+    flex-direction: column;
+  }
+  .subcategory-container .col-md-3 {
+    width: 100%;
+  }
+  .subcategory-product-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  .subcategory-card-img-top {
+    max-height: 250px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .subcategory-product-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .subcategory-card-img-top {
+    max-height: 300px;
+  }
+  
+}

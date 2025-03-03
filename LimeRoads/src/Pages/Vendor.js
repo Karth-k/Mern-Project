@@ -9,7 +9,7 @@ const Vendor = () => {
 
   const handleLogout = () => {
     localStorage.removeItem("authToken");
-    localStorage.removeItem("role");
+    localStorage.removeItem("role");  
     Swal.fire({
       title: "Logged Out!",
       text: "You have been logged out successfully.",
@@ -20,21 +20,23 @@ const Vendor = () => {
     });
   };
 
-  const productTypes = [
-    "Shirts", "T-Shirts", "Jeans", "Suits", "Scandals", "Watch", "Kurtas",
-    "Tops", "Sarees", "Bags", "Shoes", "Frocs", "SuitSet", "Ethnic",
-  ];
+  const productTypes = {
+    Men: ["Shirts", "T-Shirts", "Jeans", "Suits", "Scandals", "Watch"],
+    Women: ["Shirts","T-Shirts","Kurtas", "Tops", "Sarees","Bags","Shoes" ],
+    Kids: [ "Frocs", "T-shirt ","SuitSet", "ethnic"]
+  };
 
-  const modelTypes = [
-    "clothing", "footwear", "accessories", "Casual Wear", "Ethnic Wear",
-    "Party Wear", "Traditional Wear", "Accessories", "Shoes"
-  ];
+  const modelTypes = {
+    Men: ["clothing", "footwear", "accessories"],
+    Women: ["Casual Wear","clothing", "Ethnic Wear", "Party Wear", "Traditional Wear", "Accessories","Footwear"],
+    Kids: ["Clothing"]
+  };
 
   const [formData, setFormData] = useState({
-    image: "",
-   image_1: "", 
-    image_2: "", 
-    brand_image: "",
+    image: null,
+   image_1: null, 
+    image_2: null,
+    brand_image: null,
     title: "",
     brand: "",
     price: "",
@@ -43,32 +45,52 @@ const Vendor = () => {
     gender: "",
     type: "",
     model: "",
-    size: "",
-    quantity: 1,
+    size: [],
+    Quantity:""
   });
 
+
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    const { name, value, type, files } = e.target;
+  
+    if (type === "file") {
+      setFormData({ ...formData, [name]: files.length > 0 ? files[0] : null });
+    } else {
+      setFormData({ ...formData, [name]: value });
+    }
+  };
+  const handleBrandImageChange = (e) => {
+    setFormData({ ...formData, brand_image: e.target.files[0] });
   };
 
+  // const handleChange = (e) => {
+  //   setFormData({ ...formData, [e.target.name]: e.target.value });
+  // };
+
   const handleSizeChange = (e) => {
-    setFormData({ ...formData, size: e.target.value.split(",") });
+    const sizesArray = e.target.value.split(",").map(size => size.trim());
+    setFormData({ ...formData, size: sizesArray });
   };
 
   const handleImageChange = (e) => {
-    setFormData({ ...formData, image: e.target.value.split(",") });
+    setFormData({ ...formData, image: e.target.files[0] });
   };
 
   const handleAdditionalImageChange = (e) => {
-    setFormData({ ...formData, image_1: e.target.value.split(",") });
+    setFormData({ ...formData, image_1: e.target.files[0] });
   };
 
   const handleExtraImageChange = (e) => {
-    setFormData({ ...formData, image_2: e.target.value.split(",") });
+    setFormData({ ...formData, image_2: e.target.files[0] });
   };
 
   const handleGenderChange = (e) => {
-    setFormData({ ...formData, gender: e.target.value });
+    setFormData({
+      ...formData, 
+      gender: e.target.value, 
+      type: "", 
+      model: "" 
+    });
   };
 
   const handleSubmit = async (e) => {
@@ -85,33 +107,35 @@ const Vendor = () => {
       return;
     }
 
-    const finalData = {
-      image: formData.image,
-      image_1:formData.image_1,
-      image_2:formData.image_2,
-      brand_image: formData.brand_image,
-      title: formData.title,
-      brand: formData.brand,
-      price: Number(formData.price),
-      before_disc: Number(formData.before_disc),
-      offer_percent: Number(formData.offer_percent),
-      category: {
-        gender: formData.gender,
-        type: formData.type,
-        model: formData.model,
-      },
-      size: formData.size,
-      quantity: Number(formData.quantity),
-    };
 
-    try {
-      const response = await axios.post(
-        "http://localhost:5000/api/addProduct",
-        finalData,
-        {
-          headers: { Authorization: `Bearer ${token}` },
-        }
-      );
+
+const formDataToSend = new FormData();
+formDataToSend.append("images", formData.image);
+formDataToSend.append("images", formData.image_1);
+formDataToSend.append("images", formData.image_2);
+formDataToSend.append("brand_image", formData.brand_image);
+formDataToSend.append("title", formData.title);
+formDataToSend.append("brand", formData.brand);
+formDataToSend.append("price", formData.price);
+formDataToSend.append("before_disc", formData.before_disc);
+formDataToSend.append("offer_percent", formData.offer_percent);
+formDataToSend.append("category[gender]", formData.gender);
+formDataToSend.append("category[type]", formData.type);
+formDataToSend.append("category[model]", formData.model);
+formDataToSend.append("Quantity", formData.Quantity);
+
+formData.size.forEach((size) => {
+  formDataToSend.append("size[]", size);
+});
+
+
+try{
+const response = await axios.post("http://localhost:5000/api/addProduct", formDataToSend, {
+  headers: {
+    "Content-Type": "multipart/form-data",
+    Authorization: `Bearer ${token}`,
+  },
+}); 
 
       Swal.fire({
         title: "Success!",
@@ -135,7 +159,7 @@ const Vendor = () => {
         type: "",
         model: "",
         size: "",
-        quantity: "",
+        Quantity: "",
       });
     } catch (error) {
       console.error("Error adding product:", error.response?.data || error.message);
@@ -158,48 +182,49 @@ const Vendor = () => {
         <input type="number" name="before_disc" placeholder="Original Price" value={formData.before_disc} onChange={handleChange} required />
         <input type="number" name="offer_percent" placeholder="Discount %" value={formData.offer_percent} onChange={handleChange} required />
 
-        <div className="gender-selection">
+         <div className="gender-selection">
           <label>Gender:</label>
-          <label>
-            <input type="radio" name="gender" value="Men" checked={formData.gender === "Men"} onChange={handleGenderChange} required /> Men
-          </label>
-          <label>
-            <input type="radio" name="gender" value="Women" checked={formData.gender === "Women"} onChange={handleGenderChange} required /> Women
-          </label>
-          <label>
-            <input type="radio" name="gender" value="Kids" checked={formData.gender === "Kids"} onChange={handleGenderChange} required /> Kids
-          </label>
+          {["Men", "Women", "Kids"].map((gender) => (
+            <label key={gender}>
+              <input type="radio" name="gender" value={gender} checked={formData.gender === gender} onChange={handleGenderChange} required /> {gender}
+            </label>
+          ))}
         </div>
 
-        <select name="type" value={formData.type} onChange={handleChange} required>
-          <option value="">Select Type</option>
-          {productTypes.map((type) => (
-            <option key={type} value={type}>
-              {type}
-            </option>
-          ))}
-        </select>
+        {formData.gender && (
+          <select name="type" value={formData.type} onChange={handleChange} required>
+            <option value="">Select Type</option>
+            {productTypes[formData.gender].map((type) => (
+              <option key={type} value={type}>{type}</option>
+            ))}
+          </select>
+        )}
 
-        <select name="model" value={formData.model} onChange={handleChange} required>
-          <option value="">Select Model</option>
-          {modelTypes.map((type) => (
-            <option key={type} value={type}>
-              {type}
-            </option>
-          ))}
-        </select>
+        {formData.gender && (
+          <select name="model" value={formData.model} onChange={handleChange} required>
+            <option value="">Select Model</option>
+            {modelTypes[formData.gender].map((model) => (
+              <option key={model} value={model}>{model}</option>
+            ))}
+          </select>
+        )}
 
-        <input type="text" name="image" placeholder="Main Image " value={formData.image} onChange={handleImageChange} required />
-        <input type="text" name="image_1" placeholder="Additional Image " value={formData.image_1} onChange={handleAdditionalImageChange} required/>
-        <input type="text" name="image_2" placeholder="Extra Image " value={formData.image_2} onChange={handleExtraImageChange} required/>
-        <input type="text" name="brand_image" placeholder="Brand Image URL" value={formData.brand_image} onChange={handleChange} required />
-        <input type="text" name="size" placeholder="Sizes (comma-separated: S,M,L,XL)" value={formData.size} onChange={handleSizeChange} required />
-        <input type="number" name="quantity" placeholder="Quantity" value={formData.quantity} onChange={handleChange} required />
 
-        <button type="submit">Add Product</button>
-      </form>
-      <button className="btn btn-danger" style={{ marginTop: "10px" }} onClick={handleLogout}> Logout</button>
-      <Link to="/vendor-products"> <button className="btn btn-dark" style={{ marginTop: "10px" }}>View My Products</button></Link>
+
+
+          <input type="file" name="image" accept="image/*" onChange={handleImageChange} required />
+          <input type="file" name="image_1" accept="image/*" onChange={handleAdditionalImageChange} required />
+          <input type="file" name="image_2" accept="image/*" onChange={handleExtraImageChange} required />
+
+          <input type="file" name="brand_image" accept="image/*" onChange={handleBrandImageChange} required />
+              
+          <input type="text" name="size" placeholder="Sizes (comma-separated: S,M,L,XL)" value={Array.isArray(formData.size) ? formData.size.join(",") : ""} onChange={handleSizeChange} required />       
+          <input type="number" name="Quantity" placeholder="Quantity" value={formData.Quantity} onChange={handleChange} required />
+
+          <button type="submit">Add Product</button>
+        </form>
+            <button className="btn btn-danger" style={{ marginTop: "10px" }} onClick={handleLogout}> Logout</button>
+            <Link to="/vendor-products"> <button className="btn btn-dark" style={{ marginTop: "10px" }}>View My Products</button></Link>
     </div>
   );
 };

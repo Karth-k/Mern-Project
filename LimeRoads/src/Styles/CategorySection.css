@@ -1,13 +1,12 @@
 .container {
   width: 100%;
-  padding: 0 15px; /* Ensures proper spacing on mobile */
+  padding: 0 15px;
 }
 
-/* Category section buttons */
 .category-section {
   display: flex;
-  justify-content: flex-start; /* Keep aligned to the start */
-  flex-wrap: wrap; /* Wrap to next line on smaller screens */
+  justify-content: flex-start; 
+  flex-wrap: wrap; 
   gap: 10px;
   border: none;
   outline: none;
@@ -26,14 +25,14 @@
   text-decoration: underline;
 }
 
-/* Category images section */
+
 .image-link {
   border: none;
   outline: none;
   background: none;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centers text and image */
+  align-items: center; 
   justify-content: center;
 }
 
@@ -41,7 +40,7 @@
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: fill;
   border: 2px solid transparent;
   transition: all 0.3s ease-in-out;
 }
@@ -58,15 +57,15 @@
   text-align: center;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .category-section {
     gap: 5px;
-    justify-content: flex-start; /* Keep aligned left */
+    justify-content: flex-start; 
   }
 
   .category-item {
-    font-size: 14px; /* Reduce text size for smaller screens */
+    font-size: 14px; 
   }
 
   .circle-img {
@@ -82,7 +81,7 @@
 @media (max-width: 480px) {
   .category-section {
     flex-direction: row;
-    justify-content: flex-start; /* Keep aligned left */
+    justify-content: flex-start; 
   }
 
   .category-item {

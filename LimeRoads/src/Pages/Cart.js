@@ -9,11 +9,11 @@ const Cart = () => {
   const cart = useSelector(state => state.cart);
   const dispatch = useDispatch();
 
-  const handleQuantityChange = (_id, selectedSize ,quantity) => {
+  const handleQuantityChange = (_id, selectedSize ,quantity, Quantity) => {
     if (quantity < 1) {
       dispatch(removeFromCart(_id));
     } else {
-      dispatch(updateQuantity({ _id, selectedSize  ,quantity }));
+      dispatch(updateQuantity({ _id, selectedSize  ,quantity, Quantity }));
     }
   };
 
@@ -39,9 +39,9 @@ const Cart = () => {
                 <p className="item-description">Cotton T-shirt</p>
                 <p className="item-size">Size: {item.selectedSize}</p>
                 <div className="quantity-controls">
-                  <button  className="quantity-btn" onClick={() => handleQuantityChange(item._id,item.selectedSize, item.quantity - 1)}>-</button>
+                  <button  className="quantity-btn" onClick={() => handleQuantityChange(item._id,item.selectedSize, item.quantity - 1, item.Quantity)}>-</button>
                   <span className="quantity-value">{item.quantity}</span>
-                  <button  className="quantity-btn"  onClick={() => handleQuantityChange(item._id, item.selectedSize,item.quantity + 1)}>+</button>
+                  <button  className="quantity-btn"  onClick={() => handleQuantityChange(item._id, item.selectedSize,item.quantity + 1,item.Quantity)}>+</button>
                 </div>
                 <p className="item-price">₹{item.price * item.quantity}</p>
               </div>

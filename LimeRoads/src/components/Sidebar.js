@@ -24,31 +24,19 @@ const Sidebar = ({ products = [], onFilterChange }) => {
 
   return (
     <div className="sidebar">
-      <h2>Filter & Sort</h2>
+      <h2 className="fs-5">Filter & Sort</h2>
       <div className="filter-section">
         <p>Price</p>
-        <label>
-          <input type="radio" name="price" onChange={() => handlePriceFilter("less500")} /> Less than ₹500
-        </label>
-        <label>
-          <input type="radio" name="price" onChange={() => handlePriceFilter("500to2000")} /> ₹500 - ₹2000
-        </label>
-        <label>
-          <input type="radio" name="price" onChange={() => handlePriceFilter("more2000")} /> More than ₹2000
-        </label>
+        <label><input type="radio" name="price" onChange={() => handlePriceFilter("less500")} /> Less than ₹500</label>
+        <label><input type="radio" name="price" onChange={() => handlePriceFilter("500to2000")} /> ₹500 - ₹2000</label>
+        <label><input type="radio" name="price" onChange={() => handlePriceFilter("more2000")} /> More than ₹2000</label>
       </div>
 
       <div className="filter-section">
         <p>Discounts</p>
-        <label>
-          <input type="radio" name="discount" onChange={() => handleDiscountFilter("more10")} /> More than 10%
-        </label>
-        <label>
-          <input type="radio" name="discount" onChange={() => handleDiscountFilter("more20")} /> More than 20%
-        </label>
-        <label>
-          <input type="radio" name="discount" onChange={() => handleDiscountFilter("more40")} /> More than 40%
-        </label>
+        <label><input type="radio" name="discount" onChange={() => handleDiscountFilter("more10")} /> More than 10%</label>
+        <label><input type="radio" name="discount" onChange={() => handleDiscountFilter("more20")} /> More than 20%</label>
+        <label><input type="radio" name="discount" onChange={() => handleDiscountFilter("more40")} /> More than 40%</label>
       </div>
     </div>
   );

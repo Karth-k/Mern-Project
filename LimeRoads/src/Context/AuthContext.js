@@ -30,7 +30,7 @@ export const AuthProvider = ({ children }) => {
     localStorage.removeItem("role");
     setIsLoggedIn(false);
     setRole("");
-    window.location.href = "/Profile"; 
+    window.location.href = "/Profile";
   };
   
 

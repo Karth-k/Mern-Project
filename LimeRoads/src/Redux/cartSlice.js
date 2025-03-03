@@ -16,10 +16,15 @@ const syncCartWithBackend = async (cart) => {
       },
       body: JSON.stringify({ cart }),
     });
+
+    // if (response.ok) {
+    //   localStorage.removeItem("cart");
+    // }
   } catch (error) {
     console.error("Failed to sync cart with backend:", error);
   }
 };
+
 
 const fetchCartFromBackend = async (dispatch) => {
   try {
@@ -62,11 +67,19 @@ const cartSlice = createSlice({
         return state;
       }
 
-      const { _id, selectedSize } = action.payload;
+      const { _id, selectedSize, Quantity } = action.payload; 
       const existingProduct = state.find(item => item._id === _id && item.selectedSize === selectedSize);
 
       if (existingProduct) {
-        existingProduct.quantity += 1;
+        if (existingProduct.quantity < Quantity) { 
+          existingProduct.quantity += 1;
+        } else {
+          Swal.fire({
+            title: "Stock Limit Reached!",
+            text: "No more stock available for this product.",
+            icon: "warning",
+          });
+        }
       } else {
         state.push({ ...action.payload, quantity: 1 });
       }
@@ -121,21 +134,30 @@ const cartSlice = createSlice({
         return state;
       }
 
-      const { _id, selectedSize, quantity } = action.payload;
+      const { _id, selectedSize, quantity, Quantity } = action.payload; 
       const product = state.find(item => item._id === _id && item.selectedSize === selectedSize);
 
       if (product) {
-        product.quantity = quantity;
+        if (quantity <= Quantity) { 
+          product.quantity = quantity;
+          localStorage.setItem("cart", JSON.stringify(state));
+          syncCartWithBackend(state);
+    
+        
+          Swal.fire({
+            title: "Quantity Updated!",
+            text: "The item quantity has been updated.",
+            icon: "success",
+          });
+    
+        } else {
+          Swal.fire({
+            title: "Stock Limit Exceeded!",
+            text: `Only ${Quantity} items available in stock.`,
+            icon: "warning",
+          });
+        }
       }
-
-      localStorage.setItem("cart", JSON.stringify(state));
-      syncCartWithBackend(state);
-
-      Swal.fire({
-        title: "Quantity Updated!",
-        text: "The item quantity has been updated.",
-        icon: "success",
-      });
     },
 
     clearCart: (state) => {

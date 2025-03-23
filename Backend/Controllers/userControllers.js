@@ -452,8 +452,8 @@ const showCart = async (req, res) => {
           payment_method_types: ["card"],
           line_items,
           mode: "payment",
-          success_url: `http://localhost:3000/ConfirmOrder?session_id={CHECKOUT_SESSION_ID}`,
-          cancel_url: "http://localhost:3000/cancel",
+          success_url: `http://localhost:4000/ConfirmOrder?session_id={CHECKOUT_SESSION_ID}`,
+          cancel_url: "http://localhost:4000/cancel",
           metadata: { cartItems: JSON.stringify(cartItems), userId },
         });
     
@@ -570,7 +570,7 @@ const confirmOrder = async (req, res) => {
     for (const item of formattedItems) {
       const updatedProduct = await Data.findOneAndUpdate(
         { _id: item.productId },
-        { $inc: { Quantity: -item.quantity } }, // 🔥 Reduce stock
+        { $inc: { Quantity: -item.quantity } },
         { new: true }
       );
 

@@ -10,7 +10,7 @@ const Landingpage = ({ gender, type }) => {
   useEffect(() => {
     
     axios
-      .get("http://localhost:5000/api/products")
+      .get("http://13.234.75.84:5000/api/products")
       .then((response) => {
         const filteredProducts = response.data.filter((product) => {
           if (type === "My Feed") {

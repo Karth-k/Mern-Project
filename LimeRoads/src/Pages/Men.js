@@ -12,7 +12,7 @@ const Men = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/products");
+        const response = await axios.get("http://13.234.75.84:5000/api/products");
         const mensProducts = response.data.filter(
           (product) => product.category.gender === "Men"
         );

@@ -24,7 +24,7 @@ const ConfirmOrder = () => {
     const confirmOrder = async () => {
       try {
         
-        const { data } = await axios.post("http://localhost:5000/api/orders/confirm-order", 
+        const { data } = await axios.post("http://13.234.75.84:5000/api/orders/confirm-order", 
           { session_id }, 
           { headers: { "Content-Type": "application/json" } }
         );

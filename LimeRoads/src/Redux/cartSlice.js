@@ -8,7 +8,7 @@ const syncCartWithBackend = async (cart) => {
     const authToken = localStorage.getItem("authToken");
     if (!authToken) return;
 
-    await fetch("http://localhost:5000/api/cart", {
+    await fetch("http://13.234.75.84:5000/api/cart", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -31,7 +31,7 @@ const fetchCartFromBackend = async (dispatch) => {
     const authToken = localStorage.getItem("authToken");
     if (!authToken) return;
 
-    const response = await fetch("http://localhost:5000/api/show/cart", {
+    const response = await fetch("http://13.234.75.84:5000/api/show/cart", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

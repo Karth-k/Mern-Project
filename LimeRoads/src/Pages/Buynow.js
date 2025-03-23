@@ -58,7 +58,7 @@ const Buynow = () => {
       }));
       
       const { data } = await axios.post(
-        "http://localhost:5000/api/payment",
+        "http://13.234.75.84:5000/api/payment",
         { cartItems: formattedCart, shippingAddress: addresses }, 
         { headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" } }
       );

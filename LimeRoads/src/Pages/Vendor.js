@@ -130,7 +130,7 @@ formData.size.forEach((size) => {
 
 
 try{
-const response = await axios.post("http://localhost:5000/api/addProduct", formDataToSend, {
+const response = await axios.post("http://13.234.75.84:5000/api/addProduct", formDataToSend, {
   headers: {
     "Content-Type": "multipart/form-data",
     Authorization: `Bearer ${token}`,

@@ -17,7 +17,7 @@ function ForgotPassword({ handleClose }) {
     }
 
     try {
-      const response = await axios.post("http://localhost:5000/api/forgot-password", {
+      const response = await axios.post("http://13.234.75.84:5000/api/forgot-password", {
         email
       });
 

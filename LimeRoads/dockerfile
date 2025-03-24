@@ -10,7 +10,8 @@ RUN npm install
 
 COPY . .
 
+RUN npm run build  # Create optimized production build
+
 EXPOSE 3000
 
-CMD ["npm", "start"]
-
+CMD ["npx", "serve", "-s", "build", "-l", "3000"]  # Serve the build folder

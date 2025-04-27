@@ -7,7 +7,7 @@ const RelatedProducts = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    axios.get("http://13.234.75.84:5000/api/products")
+    axios.get("http://localhost:5000/api/products")
       .then((response) => {
         const filteredProducts = response.data.filter((product) => {
           return (

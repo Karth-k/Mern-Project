@@ -15,7 +15,7 @@ const VendorProducts = () => {
           return;
         }
 
-        const response = await axios.get("http://13.234.75.84:5000/api/vendor-products", {
+        const response = await axios.get("http://localhost:5000/api/vendor-products", {
           headers: { Authorization: `Bearer ${token}` },
         });
 

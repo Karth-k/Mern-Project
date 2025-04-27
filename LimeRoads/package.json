@@ -13,6 +13,7 @@
     "axios": "^1.8.1",
     "bootstrap": "^5.3.3",
     "cra-template": "1.2.0",
+    "cross-env": "^7.0.3",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.9",
     "react-bootstrap-icons": "^1.11.5",
@@ -25,13 +26,12 @@
     "sweetalert2": "^11.17.2",
     "web-vitals": "^4.2.4"
   },
- "scripts": {
-  "start": "HOST=0.0.0.0 PORT=3000 react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-},
-
+  "scripts": {
+    "start": "cross-env HOST=0.0.0.0 PORT=3000 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",

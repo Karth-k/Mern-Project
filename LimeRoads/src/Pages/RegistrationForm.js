@@ -42,7 +42,7 @@ const RegistrationPage = () => {
     }
 
     try {
-      await axios.post("http://13.234.75.84:5000/api/register", formData);
+      await axios.post("http://localhost:5000/api/register", formData);
       Swal.fire({
         title: "Good job!",
         text: "Registration successful!",
@@ -56,6 +56,7 @@ const RegistrationPage = () => {
       alert(error.response?.data?.message || "Registration failed!");
     }
   };
+  // "http://localhost:5000
 
   return (
     <div className="container mt-5">

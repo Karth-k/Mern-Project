@@ -37,13 +37,13 @@
     useEffect(() => {
       const fetchProduct = async () => {
         try {
-          const response = await axios.get(`http://13.234.75.84:5000/api/products/${id}`);
+          const response = await axios.get(`http://localhost:5000/api/products/${id}`);
           const productData = response.data;
           console.log("Fetched Product Data:", productData);
           setProduct(productData);
           setStock(productData.Quantity);
     
-          const similarResponse = await axios.get("http://13.234.75.84:5000/api/products");
+          const similarResponse = await axios.get("http://localhost:5000/api/products");
     
           const filteredProducts = similarResponse.data.filter(item =>
             item.category?.type === productData.category?.type &&
